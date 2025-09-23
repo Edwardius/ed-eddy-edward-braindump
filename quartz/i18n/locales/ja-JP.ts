@@ -36,7 +36,7 @@ export default {
       title: "エクスプローラー",
     },
     footer: {
-      createdWith: "作成",
+      partOf: "Ed Eddy Edwardの一部",
     },
     graph: {
       title: "グラフビュー",

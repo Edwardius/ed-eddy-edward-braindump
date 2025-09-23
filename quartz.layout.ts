@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/Edwardius",
+      LinkedIn: "https://www.linkedin.com/in/eddy-zhou-6968b8184/",
+      YouTube: "https://www.youtube.com/channel/UCBYnPI9wfTCs-dCgo6_B45g",
     },
   }),
 }
@@ -26,7 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
+    Component.LogoLink(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [
@@ -50,7 +51,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
+    Component.LogoLink(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
       components: [

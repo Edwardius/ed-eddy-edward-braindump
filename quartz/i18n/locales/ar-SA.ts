@@ -37,7 +37,7 @@ export default {
       title: "وضع القارئ",
     },
     footer: {
-      createdWith: "أُنشئ باستخدام",
+      partOf: "جزء من Ed Eddy Edward",
     },
     graph: {
       title: "التمثيل التفاعلي",

@@ -37,7 +37,7 @@ export default {
       title: "مطالب",
     },
     footer: {
-      createdWith: "ساخته شده با",
+      partOf: "بخشی از Ed Eddy Edward",
     },
     graph: {
       title: "نمای گراف",

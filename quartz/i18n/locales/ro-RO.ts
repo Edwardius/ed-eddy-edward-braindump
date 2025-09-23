@@ -36,7 +36,7 @@ export default {
       title: "Explorator",
     },
     footer: {
-      createdWith: "Creat cu",
+      partOf: "Parte din Ed Eddy Edward",
     },
     graph: {
       title: "Graf",

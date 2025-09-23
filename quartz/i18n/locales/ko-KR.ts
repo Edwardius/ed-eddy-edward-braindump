@@ -36,7 +36,7 @@ export default {
       title: "탐색기",
     },
     footer: {
-      createdWith: "Created with",
+      partOf: "Ed Eddy Edward의 일부",
     },
     graph: {
       title: "그래프 뷰",

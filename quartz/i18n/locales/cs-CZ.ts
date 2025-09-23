@@ -36,7 +36,7 @@ export default {
       title: "Procházet",
     },
     footer: {
-      createdWith: "Vytvořeno pomocí",
+      partOf: "Část Ed Eddy Edward",
     },
     graph: {
       title: "Graf",

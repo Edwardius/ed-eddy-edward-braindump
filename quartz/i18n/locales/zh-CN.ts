@@ -36,7 +36,7 @@ export default {
       title: "探索",
     },
     footer: {
-      createdWith: "Created with",
+      partOf: "Ed Eddy Edward 的一部分",
     },
     graph: {
       title: "关系图谱",

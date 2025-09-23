@@ -36,7 +36,7 @@ export default {
       title: "Selain",
     },
     footer: {
-      createdWith: "Luotu käyttäen",
+      partOf: "Osa Ed Eddy Edwardista",
     },
     graph: {
       title: "Verkkonäkymä",

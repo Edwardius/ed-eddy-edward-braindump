@@ -36,7 +36,7 @@ export default {
       title: "รายการหน้า",
     },
     footer: {
-      createdWith: "สร้างด้วย",
+      partOf: "ส่วนหนึ่งของ Ed Eddy Edward",
     },
     graph: {
       title: "มุมมองกราฟ",

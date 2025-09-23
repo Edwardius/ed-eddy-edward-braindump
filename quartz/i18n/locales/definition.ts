@@ -39,7 +39,7 @@ export interface Translation {
       title: string
     }
     footer: {
-      createdWith: string
+      partOf: string
     }
     graph: {
       title: string

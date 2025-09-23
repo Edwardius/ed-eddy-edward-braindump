@@ -36,7 +36,7 @@ export default {
       title: "Utforsker",
     },
     footer: {
-      createdWith: "Laget med",
+      partOf: "Del av Ed Eddy Edward",
     },
     graph: {
       title: "Graf-visning",

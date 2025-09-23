@@ -36,7 +36,7 @@ export default {
       title: "Fájlböngésző",
     },
     footer: {
-      createdWith: "Készítve ezzel:",
+      partOf: "Ed Eddy Edward része",
     },
     graph: {
       title: "Grafikonnézet",

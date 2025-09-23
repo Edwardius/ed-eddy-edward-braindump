@@ -36,7 +36,7 @@ export default {
       title: "Penjelajah",
     },
     footer: {
-      createdWith: "Dibuat dengan",
+      partOf: "Bagian dari Ed Eddy Edward",
     },
     graph: {
       title: "Tampilan Grafik",

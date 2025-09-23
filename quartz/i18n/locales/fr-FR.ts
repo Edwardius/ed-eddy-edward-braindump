@@ -36,7 +36,7 @@ export default {
       title: "Explorateur",
     },
     footer: {
-      createdWith: "Créé avec",
+      partOf: "Partie d'Ed Eddy Edward",
     },
     graph: {
       title: "Vue Graphique",

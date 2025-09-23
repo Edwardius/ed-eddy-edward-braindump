@@ -36,7 +36,7 @@ export default {
       title: "Gezgin",
     },
     footer: {
-      createdWith: "Şununla oluşturuldu",
+      partOf: "Ed Eddy Edward'un bir parçası",
     },
     graph: {
       title: "Grafik Görünümü",

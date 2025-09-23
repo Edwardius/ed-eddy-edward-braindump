@@ -36,7 +36,7 @@ export default {
       title: "Провідник",
     },
     footer: {
-      createdWith: "Створено за допомогою",
+      partOf: "Частина Ed Eddy Edward",
     },
     graph: {
       title: "Вигляд графа",

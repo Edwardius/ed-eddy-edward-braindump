@@ -36,7 +36,7 @@ export default {
       title: "Trong bài này",
     },
     footer: {
-      createdWith: "Được tạo bởi",
+      partOf: "Phần của Ed Eddy Edward",
     },
     graph: {
       title: "Biểu Đồ",

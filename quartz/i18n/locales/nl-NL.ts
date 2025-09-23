@@ -36,7 +36,7 @@ export default {
       title: "Verkenner",
     },
     footer: {
-      createdWith: "Gemaakt met",
+      partOf: "Deel van Ed Eddy Edward",
     },
     graph: {
       title: "Grafiekweergave",

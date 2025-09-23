@@ -36,7 +36,7 @@ export default {
       title: "Przeglądaj",
     },
     footer: {
-      createdWith: "Stworzone z użyciem",
+      partOf: "Część Ed Eddy Edward",
     },
     graph: {
       title: "Graf",

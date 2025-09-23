@@ -36,7 +36,7 @@ export default {
       title: "Naršyklė",
     },
     footer: {
-      createdWith: "Sukurta Su",
+      partOf: "Ed Eddy Edward dalis",
     },
     graph: {
       title: "Grafiko Vaizdas",
