@@ -24,14 +24,6 @@ Feel free to explore using:
 - The **graph view** to see connections between notes
 - **Tags** to find related content
 
-## Recent Areas of Interest
-
-- Software Engineering & Architecture
-- Machine Learning & AI
-- Product Design & UX
-- Robotics & Automation
-- Philosophy & Ethics in Technology
-
 ## A Living Document
 
 This space is constantly evolving. Notes may be incomplete, ideas might be half-formed, and thoughts could change over time. That's the beauty of a brain dump—it's a work in progress, just like learning itself.
