@@ -27,8 +27,27 @@ LogoLink.css = `
 
 .logo-link img {
   height: 1.00rem;
-  object-fit: scale-down;
+  object-fit: contain;
   display: block;
+}
+
+/* Mobile styles - match hamburger menu height */
+@media (max-width: 1200px) {
+  .logo-link {
+    padding: 5px;
+    margin-bottom: 0;
+    height: 34px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .logo-link img {
+    height: 0.75rem;
+    object-fit: contain;
+  }
 }
 `
 
