@@ -8,7 +8,7 @@ Polymorphism that occurs during compile time. The right implementation is chosen
 
 ### Function Overloading
 
-Functions can have different implementations based on different arguments. The compiler chooses the right function by matching the usage of the function and its arguments with the right overloaded function.
+The decision to use a specific implementation of a function is made during compilation. Functions can have different implementations based on different arguments. The compiler chooses the right function by matching the usage of the function and its arguments with the right overloaded function.
 
 ```c++
 class OverloadedClass {
@@ -61,7 +61,7 @@ private:
 
 ## Runtime Polymorphism (or Dynamic Polymorphism)
 
-Polymorphism that occurs during runtime. This is done with virtual functions and inheritance. Usually a base class provides some initial interface to override (via virtual methods). **Calls are resolved at runtime using a Virtual Table (vtable) mechanism.**
+The decision to use a specific implementation is decided at runtime (via Vtable lookup). Polymorphism that occurs during runtime. This is done with virtual functions and inheritance. Usually a base class provides some initial interface to override (via virtual methods). **Calls are resolved at runtime using a Virtual Table (vtable) mechanism.**
 
 ### Virtual Methods
 
@@ -109,4 +109,82 @@ private:
 	std::string star_shape = "_/\_\n";
 };
 
+int main() {
+	BaseShape* star = new Star();
+	delete star; // this will deconstruct BaseShape, but not properly deconstruct Star!!
+}
+
 ```
+
+Virtual destructor will solve this! The derived class' destructor will be called first before the base class.
+
+```c++
+// ################## BETTER WAY ##################
+class BaseShape {
+public:
+	virtual void draw_shape() { std::cout << "drawing shape\n"; }
+	virtual ~BaseShape() = default; // <-- here I am telling the compiler to use its standard implementation of this destructor function (not virtual)
+};
+
+class Star {
+public:
+	virtual void draw_shape() { std::cout << "drawing star\n" << star_shape << std::endl; }
+	~Star() = default;
+private:
+	std::string star_shape = "_/\_\n";
+};
+
+int main() {
+	BaseShape* star = new Star();
+	delete star; // this will deconstruct BaseShape base object and Star!
+}
+```
+
+## V-tables (Virtual Table)
+
+A Virtual Table is a table of function pointers that every class with `virtual` functions spawns with.
+
+For example, given:
+
+```c++
+class Base {
+public:
+	virtual void func1() { std::cout << "base func1\n"; }
+	virtual void func2() { std::cout << "base func2\n"; }
+};
+
+class Derived : public Base {
+public:
+	void func1() override { std::cout << "derived func1\n"; }
+};
+```
+
+The resultant vtables:
+
+```
+Base's vtable:
+┌──────────────────┐
+│ &Base::func1()   │
+├──────────────────┤
+│ &Base::func2()   │
+└──────────────────┘
+
+Derived's vtable:
+┌──────────────────────┐
+│ &Derived::func1()    │  ← Overridden
+├──────────────────────┤
+│ &Base::func2()       │  ← Inherited
+└──────────────────────┘
+```
+
+The mechanism for building vtables is generally as follows:
+
+```
+1. Start with Base's vtable layout as a template
+2. Copy all entries from Base's vtable
+3. For each overridden function in Derived, UPDATE that entry
+4. For inherited (non-overridden) functions, KEEP the Base pointer
+5. If Derived adds NEW virtual functions, APPEND them to the end
+```
+
+This occurs at COMPILE TIME. It also, at a high-level, converts a function call `func1()` to its respective vtable call `call vtable[2]`. At runtime, we just run `call vtable[2]`.
