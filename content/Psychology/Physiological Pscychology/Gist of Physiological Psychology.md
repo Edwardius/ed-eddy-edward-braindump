@@ -1,0 +1,1 @@
+Physiological Psychology is the study of the nervous system, and how it relates to mind/cognition, behaviour, and the rest of the peripheral body. 
