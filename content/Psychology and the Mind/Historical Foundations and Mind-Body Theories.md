@@ -37,9 +37,10 @@ This shaped how early science approached the brain.
 - **Franz-Joseph Gall (1758–1822 CE)**:
     - Proposed **phrenology** – cranioscopy (skull bumps reflect mental faculties).
     - Wrong, but important: it introduced **localization of function** (different brain regions = different functions).
+    - This principle proven correct - see [[Forebrain and Cortical Structure#Cortical Maps|cortical maps]] and [[Language and Brain Lateralization#Language and the Brain|language areas]]
 - **Paul Broca (1824–1880 CE)**:
     - Studied patient "Tan" who had speech loss.
-    - Discovered **Broca's Area**: region for **speech production** in the left frontal lobe.
+    - Discovered [[Language and Brain Lateralization#Language and the Brain|Broca's Area]]: region for **speech production** in the left frontal lobe.
     - A major scientific confirmation of **localization**.
 
 ## **Consciousness and the Brain**

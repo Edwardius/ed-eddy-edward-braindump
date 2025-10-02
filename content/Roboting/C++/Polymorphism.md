@@ -71,7 +71,7 @@ When a method in a class is set as `virtual`, other classes that inherit it will
 class BaseShape {
 public:
 	virtual void draw_shape() { std::cout << "drawing shape\n"; }
-	virtual ~BaseShape() = default; // why?
+	virtual ~BaseShape() = default; // why? See [Virtual Destructor](#virtual-destructor) below
 };
 
 class Square : public BaseShape {
