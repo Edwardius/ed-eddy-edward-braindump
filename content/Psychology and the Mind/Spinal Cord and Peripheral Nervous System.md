@@ -16,6 +16,7 @@
 
 ## **Spinal Cord Anatomy**
 - **CNS** = brain + spinal cord.
+  - Brain includes [[Brainstem and Midbrain|brainstem]], [[Forebrain and Cortical Structure|forebrain structures]]
 - **PNS** = spinal nerves + cranial nerves.
 - Spinal cord ends around **L1 vertebra**.
 - Nerves extend downward as the **cauda equina**.

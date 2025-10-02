@@ -1,5 +1,7 @@
 # **Drugs and Pharmacology**
 
+> **Related topics**: [[Synaptic Transmission and Neurotransmitters]] | [[Brainstem and Midbrain]] (dopamine pathways)
+
 ## **Drugs and Toxins at the Synapse**
 ### **Preventing Action Potentials**
 - **Local anesthetics (Novocain)** and **tetrodotoxin (pufferfish)** block **Na⁺ channels**.

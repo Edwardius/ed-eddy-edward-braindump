@@ -25,7 +25,7 @@
     - Depolarization beyond a **threshold (~–65 mV)** triggers an action potential.
 ### Phases of the Action Potential
 1. **Resting Potential** – K⁺ channels partly open; Na⁺ channels closed.
-2. **Depolarization** – Na⁺ channels open rapidly, Na⁺ floods in.
+2. **Depolarization** – Na⁺ channels open rapidly, Na⁺ floods in. (See [[Drugs and Pharmacology]] for how drugs block these channels)
 3. **Rising Phase (Upstroke)** – rapid influx of Na⁺.
 4. **Falling Phase (Downstroke)** – Na⁺ channels close; K⁺ channels fully open, K⁺ exits.
 5. **Afterhyperpolarization** – K⁺ continues leaving, cell becomes more negative than resting.

@@ -1,4 +1,11 @@
-Refers to "Pointer to Implementation", and is mostly used to clean up headers.
+# PIMPL (Pointer to Implementation)
+
+Refers to "Pointer to Implementation", and is mostly used to clean up headers. This pattern helps with:
+- **Compilation firewall**: Changes to implementation don't require recompiling files that include the header
+- **Hide implementation details**: Keep private members truly private
+- **Reduce header dependencies**: Forward declarations instead of includes
+
+Related: [[Construction and Lifetime#Unique Pointer|unique_ptr usage]] | [[Encapsulation]]
 
 ```c++
 // ---- Header (would normally live in .hpp) ----

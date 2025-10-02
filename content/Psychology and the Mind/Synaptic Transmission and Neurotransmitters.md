@@ -16,8 +16,11 @@
 Organized into several categories:
 ### **Amines**
 - **Catecholamines**: derived from _phenylalanine → tyrosine → dopa → dopamine → norepinephrine → epinephrine_.
+  - Dopamine pathways originate in [[Brainstem and Midbrain|midbrain structures]] (VTA, substantia nigra)
 - **Indolamines**: from _tryptophan → 5-HTP → serotonin → N-acetylserotonin → melatonin_.
+  - Serotonin neurons concentrated in [[Brainstem and Midbrain|brainstem raphe nuclei]]
 - **Acetylcholine**: from _choline + acetyl CoA_.
+  - Key in [[Forebrain and Cortical Structure#Basal Ganglia|basal ganglia]] and motor control
 ### **Amino Acids**
 - **Glutamate** – major excitatory transmitter.
 - **GABA** – major inhibitory transmitter.
