@@ -1,34 +1,8 @@
-# Glia, Action Potentials, and Multiple Sclerosis
+# **Action Potentials and Neural Conduction**
 
-## **Glia Continued**
-### **Schwann Cells**
-- Found in the **peripheral nervous system (PNS)**.
-- Each Schwann cell wraps a **single segment of one axon** with myelin.
-- Create **nodes of Ranvier** between myelinated sections, allowing saltatory conduction.
-### **Oligodendrocytes**
-- Found in the **central nervous system (CNS)**.
-- Unlike Schwann cells, one oligodendrocyte can myelinate **multiple axons**.
-- Provide faster, more efficient conduction across the CNS.
-### **Polydendrocytes (NG2 cells)**
-- Also called **oligodendrocyte progenitor cells (OPCs)**.
-- Functions:
-    - Can remyelinate axons after injury.
-    - Act as precursors to new oligodendrocytes.
-    - Can even **form synapses with neurons**.
-- Their processes cross multiple layers, meaning they may integrate information across grey and white matter.
-### **Microglia**
-- The **immune cells of the CNS**.
-- Functions:
-    - Remove damaged or dead cells (including glioma tumor cells, precursors, stressed neurons, immune cells like neutrophils).
-    - In development, prune unnecessary synapses and neuronal precursors.
-    - Even in adulthood, help reshape synaptic connections (“synaptic stripping”).
-### **Radial Glia**
-- Act as **scaffolds during development**.
-- Guide migrating neurons from the ventricular zone to the cortex.
-- Later in development, many differentiate into neurons or astrocytes.
 ## **Historical Background: The Action Potential**
 - **Psychic Pneuma** (Herophilus & Galen, ~200 BCE):
-    - Nerves carried an invisible “air-like” substance responsible for perception and action.
+    - Nerves carried an invisible "air-like" substance responsible for perception and action.
     - Thought to flow from brain ventricles into nerves.
 - **Luigi Galvani (1737–1798)**:
     - Demonstrated that **nerves conduct electrical signals**.
@@ -67,7 +41,7 @@
 - Stronger stimulus only increases **firing frequency**, not spike size.
 ## **Propagation of the Action Potential**
 - Moves actively along axon by sequential depolarization of adjacent regions.
-- **Saltatory conduction**: in myelinated axons, AP “jumps” between nodes of Ranvier → faster and more efficient.
+- **Saltatory conduction**: in myelinated axons, AP "jumps" between nodes of Ranvier → faster and more efficient.
 - Passive Conduction: in unmyelinated axons, slower
 ## **Multiple Sclerosis (MS)**
 - An **autoimmune disorder** where the body attacks **myelin**.
@@ -83,3 +57,13 @@
 - Higher prevalence among people of **European ancestry**.
 - Numerous genetic variants linked to MS susceptibility.
 - Recent research: risk increased in **steppe pastoralist populations** (historical genetic emergence).
+
+## **Multiple Sclerosis Mechanism**
+- **MS is an autoimmune disease**: the immune system attacks **myelin**.
+- **Genetic factors**: More common in people of European ancestry; many genetic variants involved.
+- **Mechanism**:
+    - Leaky blood-brain barrier allows **lymphocytes** into the brain.
+    - These, along with microglia, release inflammatory substances.
+    - Myelin segments break down → disrupts **saltatory conduction**.
+    - Downstream of the demyelinated region, the axon withers away and an **axonal ovoid** is formed
+- **Gut-brain connection**: Dysbiosis (imbalanced microbiome) weakens intestinal wall, allowing microbial products to enter bloodstream → increases inflammation and BBB leakage.

@@ -1,10 +1,5 @@
-# **Neuroanatomy II — Forebrain and Cortex**
-## **Midbrain Structures**
-- **Periaqueductal Gray (PAG)**: around cerebral aqueduct; involved in **pain modulation** and defensive behaviors (e.g., freezing).
-- **Inferior colliculus**: auditory processing and orienting.
-- **Red nucleus**: motor control, connects cerebellum to spinal cord.
-- **Substantia nigra**: dopamine, movement, reward, learning (degenerates in Parkinson’s).
-- **Ventral tegmental area (VTA)**: dopamine; reward, motivation, addiction.
+# **Forebrain and Cortical Structure**
+
 ## **Diencephalon: Thalamus & Hypothalamus**
 - **Thalamus**: relay center for sensory and motor information.
     - **LGN**: vision.
@@ -18,6 +13,7 @@
     - Synthesizes hormones (oxytocin, vasopressin) → released by posterior pituitary.
     - Controls anterior pituitary via releasing hormones.
     - Connects nervous system to endocrine system.
+
 ## **Limbic System**
 - **Hippocampus** – memory processing.
 - **Amygdala** – emotional processing.
@@ -26,6 +22,7 @@
 - **Cingulate cortex** – emotion, pain, cognitive control, reward anticipation.
 - **Parahippocampal gyrus** – spatial/memory processing.
 - Key in learning, memory, and emotion.
+
 ## **Basal Ganglia**
 - Components: **caudate nucleus, putamen, globus pallidus, nucleus accumbens**.
 - Functions:
@@ -33,9 +30,10 @@
     - Habit learning, reward, motivation.
     - Cognitive flexibility (switching responses).
 - Disorders:
-    - **Parkinson’s**: substantia nigra degeneration → movement deficits.
-    - **Huntington’s**: caudate/putamen degeneration → involuntary movements.
-    - **Tourette’s**: dysregulated basal ganglia circuits → tics.
+    - **Parkinson's**: substantia nigra degeneration → movement deficits.
+    - **Huntington's**: caudate/putamen degeneration → involuntary movements.
+    - **Tourette's**: dysregulated basal ganglia circuits → tics.
+
 ## **Cerebral Cortex**
 ### Structure
 - **Gyri** (bumps) and **sulci** (grooves) increase surface area.
@@ -44,6 +42,7 @@
 ### Cortical Layers
 - 6-layered structure; distinct laminae.
 - Organized into **columns** (e.g., ocular dominance columns in visual cortex).
+
 ## **Lobes of the Cortex**
 - **Frontal lobe**:
     - Motor planning and execution (primary motor, premotor, supplementary motor areas).
@@ -56,7 +55,7 @@
     - Right inferior parietal damage → **neglect** (ignore half of space).
 - **Temporal lobe**:
     - **Primary auditory cortex**.
-    - **Wernicke’s area** – language comprehension (damage → Wernicke’s aphasia).
+    - **Wernicke's area** – language comprehension (damage → Wernicke's aphasia).
     - Inferior temporal – object recognition (damage → agnosia, prosopagnosia).
     - Medial temporal – memory & emotion (hippocampus, amygdala).
     - **Klüver-Bucy syndrome**: lesions → loss of fear, inappropriate behaviors.
@@ -64,13 +63,10 @@
     - **Primary visual cortex** around calcarine sulcus.
     - Upper/lower visual fields mapped in lingual gyrus/cuneus.
     - Fovea = overrepresented (cortical magnification).
+
 ## **Cortical Maps**
-- **Penfield’s cortical stimulation**: mapped motor and sensory homunculi.
+- **Penfield's cortical stimulation**: mapped motor and sensory homunculi.
     - **Motor cortex** (precentral gyrus).
     - **Somatosensory cortex** (postcentral gyrus).
     - Representation proportional to sensitivity/motor control (e.g., hands, lips overrepresented).
-- **Brodmann’s areas**: 52 regions based on cytoarchitecture (e.g., area 17 = primary visual, area 4 = primary motor, areas 1–3 = somatosensory).
-## **Corpus Callosum**
-- Connects left and right hemispheres.
-- Allows interhemispheric communication.
-- Damage/disconnection → classic split-brain phenomena.
+- **Brodmann's areas**: 52 regions based on cytoarchitecture (e.g., area 17 = primary visual, area 4 = primary motor, areas 1–3 = somatosensory).
