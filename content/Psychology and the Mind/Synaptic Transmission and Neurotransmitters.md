@@ -74,6 +74,7 @@ Steps:
     - **GABA**: GABA(A) (ionotropic, Cl⁻ channel), GABA(B) (metabotropic, K⁺ channel).
     - **Glutamate**: AMPA (ionotropic, Na⁺), NMDA (ionotropic, Na⁺ & Ca²⁺), metabotropic.
 
+![[Pasted image 20251003150133.png]]
 ## **Termination of Neurotransmitter Effects**
 1. **Reuptake** – neurotransmitter taken back into presynaptic terminal via transporters.
 2. **Enzymatic breakdown** – e.g., acetylcholinesterase, COMT.

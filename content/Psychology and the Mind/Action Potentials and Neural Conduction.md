@@ -14,6 +14,8 @@
     - Measured **speed of nerve conduction**.
     - Developed the ophthalmoscope, color vision theory, and audition theory.
 ## **The Action Potential**
+
+![[Pasted image 20251003145829.png]]
 ### Basics
 - Begins at the **axon hillock**.
 - Travels down axon **without decreasing in size** (non-decremental).
@@ -39,10 +41,12 @@
 ### All-or-None Law
 - Action potential magnitude is the same, regardless of stimulus strength.
 - Stronger stimulus only increases **firing frequency**, not spike size.
+
+![[Pasted image 20251003145925.png]]
 ## **Propagation of the Action Potential**
 - Moves actively along axon by sequential depolarization of adjacent regions.
 - **Saltatory conduction**: in myelinated axons, AP "jumps" between nodes of Ranvier → faster and more efficient.
-- Passive Conduction: in unmyelinated axons, slower
+- **Passive Conduction**: in unmyelinated axons, slower
 ## **Multiple Sclerosis (MS)**
 - An **autoimmune disorder** where the body attacks **myelin**.
 - Results in slower or blocked conduction of nerve impulses.

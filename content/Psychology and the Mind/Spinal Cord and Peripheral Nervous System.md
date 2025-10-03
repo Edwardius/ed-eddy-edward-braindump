@@ -14,6 +14,8 @@
 - **Ipsilateral**: same side.
 - **Contralateral**: opposite side.
 
+![[Pasted image 20251003150402.png]]
+![[Pasted image 20251003150430.png]]
 ## **Spinal Cord Anatomy**
 - **CNS** = brain + spinal cord.
   - Brain includes [[Brainstem and Midbrain|brainstem]], [[Forebrain and Cortical Structure|forebrain structures]]
@@ -27,6 +29,7 @@
 - **Sacral (S1–S5)**
 - **Coccygeal (Co1–Co3)**
 
+![[Pasted image 20251003150459.png]]
 ## **Spinal Cord and Reflexes**
 - **Spinal Nerves** branch from the spinal cord. Each has two roots:
     - **Dorsal root** → carries **afferent sensory fibers** into spinal cord. Cell bodies sit in the **dorsal root ganglion**.
@@ -73,11 +76,13 @@
     - **Meningitis** = meninges infection → swelling, pressure on brain.
     - **Encephalitis** = infection of brain tissue itself.
 
+![[Pasted image 20251003150532.png]]
 ## **Blood Supply**
 - Supplied via **Circle of Willis**: anterior, middle, and posterior cerebral arteries, plus basilar and internal carotid arteries.
 - Veins drain into **dural venous sinuses** → internal jugular vein.
 - Critical for preventing ischemia (strokes).
 
+![[Pasted image 20251003150558.png]]
 ## **Cerebrospinal Fluid (CSF) and Ventricular System**
 - **Produced by the choroid plexus** inside ventricles.
 - Pathway: lateral ventricles → 3rd ventricle → cerebral aqueduct → 4th ventricle → central canal & subarachnoid space → absorbed into dural sinuses via arachnoid villi.
