@@ -1,7 +1,9 @@
 # C++ Programming - Index
 
 ## Overview
-This collection covers essential C++ programming concepts with a focus on modern C++ practices, object-oriented programming "knobs," and practical implementation patterns. The content emphasizes understanding the mechanisms behind C++ features and their proper usage in robotics and systems programming.
+This collection covers essential C++ programming concepts with a focus on modern C++ practices, object-oriented programming "knobs," and practical implementation patterns. The content emphasizes understanding the mechanisms behind C++ features and their proper usage in robotics and systems programming. 
+
+You might be wondering why I learned this. Well I like roboting. [[Why do I keep Roboting?]]
 
 ## Topic Structure
 
