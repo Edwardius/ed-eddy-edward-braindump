@@ -1,9 +1,8 @@
-# **Forebrain and Cortical Structure**
 
 ![[Pasted image 20251003151000.png]]
 ![[Pasted image 20251003150937.png]]
 ![[Pasted image 20251003151015.png]]
-## **Diencephalon: Thalamus & Hypothalamus**
+# **Diencephalon: Thalamus & Hypothalamus**
 - **Thalamus**: relay center for sensory and motor information.
     - **LGN**: vision.
     - **MGN**: audition.
@@ -16,9 +15,10 @@
     - Synthesizes hormones (oxytocin, vasopressin) → released by posterior pituitary.
     - Controls anterior pituitary via releasing hormones.
     - Connects nervous system to endocrine system.
+---
 
 ![[Pasted image 20251003151029.png]]
-## **Limbic System**
+# **Limbic System**
 - **Hippocampus** – memory processing.
 - **Amygdala** – emotional processing.
 - **Mammillary bodies** – memory.
@@ -26,9 +26,10 @@
 - **Cingulate cortex** – emotion, pain, cognitive control, reward anticipation.
 - **Parahippocampal gyrus** – spatial/memory processing.
 - Key in learning, memory, and emotion.
+---
 
 ![[Pasted image 20251003151040.png]]
-## **Basal Ganglia**
+# **Basal Ganglia**
 - Components: **caudate nucleus, putamen, globus pallidus, nucleus accumbens**.
 - Functions:
     - Movement control (initiation, inhibition).
@@ -39,7 +40,8 @@
     - **Huntington's**: caudate/putamen degeneration → involuntary movements.
     - **Tourette's**: dysregulated basal ganglia circuits → tics.
 
-## **Cerebral Cortex**
+---
+# **Cerebral Cortex**
 ### Structure
 - **Gyri** (bumps) and **sulci** (grooves) increase surface area.
 - **Fissures**: deep sulci (e.g., longitudinal fissure, central sulcus, Sylvian fissure).
@@ -49,38 +51,43 @@
 - Organized into **columns** (e.g., ocular dominance columns in visual cortex).
 
 ![[Pasted image 20251003151108.png]]
-## **Lobes of the Cortex**
+
+---
+
+# **Lobes of the Cortex**
 ![[Pasted image 20251003151503.png]]
-- **Frontal lobe**:
-    - Motor planning and execution (primary motor, premotor, supplementary motor areas).
-    - **Prefrontal cortex**: executive functions, personality, planning, inhibition.
-    - Damage → disorganized behavior, poor judgment, personality changes (e.g., **Phineas Gage**).
+## **Frontal lobe**:
+- Motor planning and execution (primary motor, premotor, supplementary motor areas).
+- **Prefrontal cortex**: executive functions, personality, planning, inhibition.
+- Damage → disorganized behavior, poor judgment, personality changes (e.g., **Phineas Gage**).
 ![[Pasted image 20251003151532.png]]
-- **Parietal lobe**:
-    - **Primary somatosensory cortex** – body sensation.
-    - Integrates sensory info with motor intentions.
-    - Left inferior parietal damage → **apraxia** (motor planning deficit).
-    - Right inferior parietal damage → **neglect** (ignore half of space).
+## **Parietal lobe**:
+- **Primary somatosensory cortex** – body sensation.
+- Integrates sensory info with motor intentions.
+- Left inferior parietal damage → **apraxia** (motor planning deficit).
+- Right inferior parietal damage → **neglect** (ignore half of space).
 ![[Pasted image 20251003151550.png]]
-- **Temporal lobe**:
-    - **Primary auditory cortex**.
-    - **Wernicke's area** – language comprehension (damage → Wernicke's aphasia).
-    - Inferior temporal – object recognition (damage → agnosia, prosopagnosia).
-    - Medial temporal – memory & emotion (hippocampus, amygdala).
-    - **Klüver-Bucy syndrome**: lesions → loss of fear, inappropriate behaviors.
+## **Temporal lobe**:
+- **Primary auditory cortex**.
+- **Wernicke's area** – language comprehension (damage → Wernicke's aphasia).
+- Inferior temporal – object recognition (damage → agnosia, prosopagnosia).
+- Medial temporal – memory & emotion (hippocampus, amygdala).
+- **Klüver-Bucy syndrome**: lesions → loss of fear, inappropriate behaviors.
 ![[Pasted image 20251003151616.png]]
-- **Occipital lobe**:
-    - **Primary visual cortex** around calcarine sulcus.
-    - Upper/lower visual fields mapped in lingual gyrus/cuneus.
-    - Fovea = overrepresented (cortical magnification).
+## **Occipital lobe**:
+- **Primary visual cortex** around calcarine sulcus.
+- Upper/lower visual fields mapped in lingual gyrus/cuneus.
+- Fovea = overrepresented (cortical magnification).
 ![[Pasted image 20251003151922.png]]
-- **Limbic lobe:**
-	- Connected with other limbic structures
-	- Involved in Emotion
-	- **Anterior Cingulate Cortex** involved in emotion and pain-related motor movement, cognitive control and error detection, and **Anticipation of Reward** [[Why do I keep Roboting?]]
-	- **Posterior Cingulate Cortex** involved in monitoring eye movements, spatial orientation, memory
-	- **Parahippocampal Gyrus** involved in memory
-## **Cortical Maps**
+## **Limbic lobe:**
+- Connected with other limbic structures
+- Involved in Emotion
+- **Anterior Cingulate Cortex** involved in emotion and pain-related motor movement, cognitive control and error detection, and **Anticipation of Reward** [[Why do I keep Roboting?]]
+- **Posterior Cingulate Cortex** involved in monitoring eye movements, spatial orientation, memory
+- **Parahippocampal Gyrus** involved in memory
+
+---
+# **Cortical Maps**
 ![[Pasted image 20251003151314.png]]
 ![[Pasted image 20251003151330.png]]
 - **Penfield's cortical stimulation**: mapped motor and sensory homunculi.

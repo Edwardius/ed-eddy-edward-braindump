@@ -1,0 +1,1 @@
+Means "relating to an ideal standard or model". How things *ought* to be.
