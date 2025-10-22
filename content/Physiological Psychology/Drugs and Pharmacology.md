@@ -1,3 +1,4 @@
+#brain
 # **Drugs and Pharmacology**
 
 > **Related topics**: [[Synaptic Transmission and Neurotransmitters]] | [[Brainstem and Midbrain]] (dopamine pathways)

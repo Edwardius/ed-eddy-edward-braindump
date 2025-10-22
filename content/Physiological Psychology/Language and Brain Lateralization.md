@@ -1,3 +1,4 @@
+#brain
 ## **Language and the Brain**
 ![[Pasted image 20251002150610.png]]
 - Brain regions for language:

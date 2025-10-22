@@ -1,3 +1,4 @@
+#brain
 
 ![[Pasted image 20251003151000.png]]
 ![[Pasted image 20251003150937.png]]
