@@ -59,6 +59,7 @@ private:
 };
 ```
 
+See [[More Polymorphism]] for the weird template pattern of static polymorphism.
 ## Runtime Polymorphism (or Dynamic Polymorphism)
 
 The decision to use a specific implementation is decided at runtime (via Vtable lookup). Polymorphism that occurs during runtime. This is done with virtual functions and inheritance. Usually a base class provides some initial interface to override (via virtual methods). **Calls are resolved at runtime using a Virtual Table (vtable) mechanism.**

@@ -125,7 +125,7 @@ Types of Smart Pointers:
 ### Unique Pointer
 `unique_ptr` is for objects that should have a single owner at all times. It is move-only, so you should be transferring objects with `std::move`. 
 
-**Great for:** [[Composition, Knobs Aggregation & Dependency Injection|Composition]], [[PIMPL]], Containers, Factories
+**Great for:** [[Composition, Knobs Aggregation & Dependency Injection|Composition]], [[PIMPL and Forward Declarations]], Containers, Factories
 
 **Key Points:**
 - Moveable but **not copyable**

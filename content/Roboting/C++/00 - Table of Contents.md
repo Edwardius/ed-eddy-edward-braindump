@@ -92,7 +92,7 @@ You might be wondering why I learned this. Well I like roboting. [[Why do I keep
 
 ### Design Patterns and Best Practices
 
-#### 12. [PIMPL](./PIMPL.md)
+#### 12. [PIMPL and Forward Declarations](PIMPL%20and%20Forward%20Declarations.md)
 **Core concepts:** "Pointer to Implementation" pattern
 - Header dependency reduction
 - Compilation firewall technique

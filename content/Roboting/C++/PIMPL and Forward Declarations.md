@@ -7,6 +7,12 @@ Refers to "Pointer to Implementation", and is mostly used to clean up headers. T
 - **Hide implementation details**: Keep private members truly private
 - **Reduce header dependencies**: Forward declarations instead of includes
 
+>**When to use** generally whenever you are using external, large header-only libraries. To stop people downstream from depending on such a large header during compilation.
+>
+>Can also be used to solve circular references. Though, generally the fact that you even ran into a circular dependency issue hints at a bigger design problem.
+>
+>If you need a complete type from the library, then thats when you gots to put it in the header.
+
 Related: [[Construction and Lifetime#Unique Pointer|unique_ptr usage]] | [[Encapsulation]]
 
 ```c++

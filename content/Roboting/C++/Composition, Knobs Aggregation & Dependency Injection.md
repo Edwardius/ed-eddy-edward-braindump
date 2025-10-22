@@ -122,6 +122,10 @@ int main() {
 }
 ```
 
+> **Aggregation vs Composition** the main difference is the lifetime management. Does the object and its component cleanup at the same time? ie. closely locked in ownership, **then it is composition**. Can the component stay alive without the object? ie. they are loosely connected in ownership, **then is is aggregation**.
+> 
+> **Aggregation** -> reference to the component object, can stay alive when object dies
+> **Composition** -> lifetime of component is decided by the lifetime of the object
 ## Dependency Injection
 
 ```
