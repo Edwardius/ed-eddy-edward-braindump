@@ -1,3 +1,4 @@
+#emotions #psychology 
 # Historical Context
 ### 20th Century
 - Emotions are viewed as irrational noise that interferes with decision-making.

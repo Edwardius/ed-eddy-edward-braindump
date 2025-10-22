@@ -1,3 +1,5 @@
+#cpp #programming 
+
 These are concepts and specifiers that deal with construction, lifetime, and memory management. 
 
 ## RAII (Resource Acquisition is Initialization)

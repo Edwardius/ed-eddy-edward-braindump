@@ -1,3 +1,5 @@
+#cpp #programming 
+
 Also known as **Argument Dependent Lookup**, and is another one of those "clever but kinda useless" tricks in C++ because, for me, it just makes the code more confusing as we are relying on the compiler to implicitly resolve things.
 
 When you specify a function with an unqualified name (ie. `swap(a, b)` as opposed to `std::swap(a, b)` or `thing::swap(a, b)`), the compiler will not just search for an existing function in the current scope, but also **within namespaces and classes that are being used inside the current scope.**

@@ -1,3 +1,5 @@
+#cpp #programming #codePackaging
+
 # PIMPL (Pointer to Implementation)
 
 Refers to "Pointer to Implementation", and is mostly used to clean up headers. This pattern helps with:

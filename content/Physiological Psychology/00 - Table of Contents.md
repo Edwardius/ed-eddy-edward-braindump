@@ -1,3 +1,4 @@
+#psychology
 # Psychology and the Mind - Index
 
 ## Overview

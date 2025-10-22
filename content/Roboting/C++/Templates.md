@@ -1,3 +1,5 @@
+#cpp #programming 
+
 You can have one implementation work with many types! Note this is a compile-time thing. Templates should also be defined in headers.
 
 ### Function Templates

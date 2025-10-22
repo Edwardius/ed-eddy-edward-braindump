@@ -1,3 +1,5 @@
+#cpp #programming 
+
 These are common C++ idioms that people follow when interfacing classes together.
 
 ## Composition
