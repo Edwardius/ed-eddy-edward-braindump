@@ -2,7 +2,7 @@ You have computed the loss from a loss function and now you want to propagate th
 
 >[!info] To be completely honest, this would make things so much cleaner if I knew matrix calculus... [[The Matrix Cookbook]] ... actually nevermind, I just went down this rabbit hole and it doesn't fully let me understand Deep Learning. DL has some elementwise operations that fuck things up.
 
-^^ Above is not going to help my problems as much as know [[Basics - Matrix and Component Form]]
+^^ Above is not going to help my problems as much as know [[Matrix and Component Forms]]
 # Chain Rule, lots of it
 Backpropagation is just one extremely long chain rule. 
 
@@ -122,3 +122,6 @@ When it comes to the inner parts of the network, every **partial derivative from
 more in [[Activation Functions]], here are some for now
 ### Some Layers and their Partial Derivatives
 more in [[Layers]], here's a handful of them
+
+## After gradients are computed, we Optimize!
+we then use our [[Optimizers]] to update the weights by the gradients we found.

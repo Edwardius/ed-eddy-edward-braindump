@@ -246,13 +246,13 @@ $$
 
 # Summary
 
-| Operation                    | Explicit Example                                      | Component Form                                      |
-| ---------------------------- | ----------------------------------------------------- | --------------------------------------------------- |
-| $\mathbf{y} = W\mathbf{x}$   | $y_1 = W_{11}x_1 + W_{12}x_2$                         | $y_i = \sum_j W_{ij}x_j$                            |
-| $C = AB$                     | $C_{11} = A_{11}B_{11} + A_{12}B_{21}$                | $C_{ik} = \sum_j A_{ij}B_{jk}$                      |
-| $B = A^T$                    | $B_{12} = A_{21}$                                     | $B_{ij} = A_{ji}$                                   |
-| $C = \mathbf{ab}^T$          | $C_{12} = a_1 b_2$                                    | $C_{ij} = a_i b_j$                                  |
-| $z = \mathbf{a}^T\mathbf{b}$ | $z = a_1b_1 + a_2b_2$                                 | $z = \sum_i a_i b_i$                                |
-| $C = A \odot B$              | $C_{11} = A_{11}B_{11}$                               | $C_{ij} = A_{ij}B_{ij}$                             |
-| $z=x^TAx$                    | $z=x_{1}A_{1,2}x_{2}+x_{2}A_{2,2}x_{2}$               | $z=\sum_{i}^n\sum_{j}^nx_{i}A_{i,j}x_{j}$           |
-| $Z=X^TAX$                    | $z_{4,3}=x_{1,4}A_{1,2}x_{2,3}+x_{2,4}A_{2,2}x_{2,3}$ | $z_{p,q}=\sum_{i}^n\sum_{j}^nx_{i,p}A_{i,j}x_{j,q}$ |
+| Operation                    | Component Form                                      | Explicit Example                                      |
+| ---------------------------- | --------------------------------------------------- | ----------------------------------------------------- |
+| $\mathbf{y} = W\mathbf{x}$   | $y_i = \sum_j W_{ij}x_j$                            | $y_1 = W_{11}x_1 + W_{12}x_2$                         |
+| $C = AB$                     | $C_{ik} = \sum_j A_{ij}B_{jk}$                      | $C_{11} = A_{11}B_{11} + A_{12}B_{21}$                |
+| $B = A^T$                    | $B_{ij} = A_{ji}$                                   | $B_{12} = A_{21}$                                     |
+| $C = \mathbf{ab}^T$          | $C_{ij} = a_i b_j$                                  | $C_{12} = a_1 b_2$                                    |
+| $z = \mathbf{a}^T\mathbf{b}$ | $z = \sum_i a_i b_i$                                | $z = a_1b_1 + a_2b_2$                                 |
+| $C = A \odot B$              | $C_{ij} = A_{ij}B_{ij}$                             | $C_{11} = A_{11}B_{11}$                               |
+| $z=x^TAx$                    | $z=\sum_{i}^n\sum_{j}^nx_{i}A_{i,j}x_{j}$           | $z=x_{1}A_{1,2}x_{2}+x_{2}A_{2,2}x_{2}$               |
+| $Z=X^TAX$                    | $z_{p,q}=\sum_{i}^n\sum_{j}^nx_{i,p}A_{i,j}x_{j,q}$ | $z_{4,3}=x_{1,4}A_{1,2}x_{2,3}+x_{2,4}A_{2,2}x_{2,3}$ |
