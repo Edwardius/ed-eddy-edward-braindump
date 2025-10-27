@@ -8,4 +8,6 @@ Note that the only thing "Digital" here is the controller itself, not the plant.
 2. [[Sampled-Data Control Systems]]
 3. [[Choosing a Sampling Time]]
 4. [[Parallel Structures Between Continuous and Discrete Time Systems]]
-5. 
+5. [[Characterizing Transfer Functions]]
+6. [[Stability]]
+7. [[BIBO Stability]]
