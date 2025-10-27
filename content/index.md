@@ -24,6 +24,13 @@ Feel free to explore using:
 - The **graph view** to see connections between notes
 - **Tags** to find related content
 
+### Quick Links
+[[00 - Digital Control Systems Table of Contents]]
+[[00 - C++ Table of Contents]]
+[[00 - Physiological Psychology Table of Contents]]
+[[00 - Deep Learning Table of Contents]]
+[[00 - Multivariate Calculus Table of Contents]]
+
 ## A Living Document
 
 This space is constantly evolving. Notes may be incomplete, ideas might be half-formed, and thoughts could change over time. That's the beauty of a brain dump—it's a work in progress, just like learning itself.
