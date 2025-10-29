@@ -9,6 +9,9 @@ We usually take the **Laplace transform** of this plant to work in the **frequen
 $$
 \mathcal{L}=\int_{0}^{\infty}x(t)e^{-st}dt
 $$
+The **Inverse Laplace Transform** is given by
+$$x(t) = \mathcal{L}^{-1}\{X(s)\} = \frac{1}{2\pi j} \int_{\sigma - j\infty}^{\sigma + j\infty} X(s)e^{st} \, ds$$
+Following that, we can take the Laplace Transform of the dynamical system.
 $$
 \mathcal{L} \implies\sum_{i=0}^{n} a_i s^i Y(s) - \sum_{j=0}^{m} b_j s^j U(s) = 0
 $$
@@ -45,6 +48,9 @@ Just like how in CT we took the Laplace Transform to bring ourselves into the fr
 $$
 X[z]=\mathcal{Z}(x[k])=\sum ^{\infty}_{k=0}x[k] \frac{1}{z^{k}}
 $$
+The **Inverse Z Transform** is given by
+$$x[k] = \mathcal{Z}^{-1}(X[z]) = \frac{1}{2\pi j} \oint_{\text{unit circle}} X[z]z^{k-1} \, dz = \frac{1}{2\pi} \int_{-\pi}^{\pi} X[e^{j\theta}]e^{jk\theta} \, d\theta$$
+Following that, we can take the **Z transform** of the platnt.
 $$
 \mathcal{Z}\implies \sum_{i=0}^{n} a_i z^i Y[z] - \sum_{j=0}^{m} b_j z^j U[z] = 0
 $$

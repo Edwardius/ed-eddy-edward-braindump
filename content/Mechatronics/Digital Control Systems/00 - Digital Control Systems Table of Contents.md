@@ -11,3 +11,12 @@ Note that the only thing "Digital" here is the controller itself, not the plant.
 5. [[Characterizing Transfer Functions]]
 6. [[Stability]]
 7. [[BIBO Stability]]
+8. [[Partial Fraction Decomposition]]
+9. [[Stability for Feedback Systems]]
+10. [[Performance of Feedback Systems]]
+11. [[Final Value Theorem]]
+
+# Extras
+## Proofs
+Make sure you know the definition.
+Make deductions from that definition.
