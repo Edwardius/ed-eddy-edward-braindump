@@ -23,26 +23,34 @@ Because $f$ is the intermediate quantity that connects $\theta$ to $L$:
 - $\theta = \mathbf{x} \in \mathbb{R}^n$ (parameter vector)
 - $f(\mathbf{x}) = \mathbf{y} \in \mathbb{R}^m$ (intermediate vector)
 - $L(\mathbf{y}) \in \mathbb{R}$ (final scalar)
-$$\frac{\partial L}{\partial x_i} = \sum_{j=1}^{m} \frac{\partial L}{\partial y_j} \cdot \frac{\partial y_j}{\partial x_i}$$
+$$
+\frac{\partial L}{\partial x_i} = \sum_{j=1}^{m} \frac{\partial L}{\partial y_j} \cdot \frac{\partial y_j}{\partial x_i}
+$$
 Sum over all $m$ components of the intermediate quantity $\mathbf{y}$.
 
 ### **Parameter is matrix, intermediate is vector**
 - $\theta = W \in \mathbb{R}^{p \times q}$ (parameter matrix)
 - $f(W) = \mathbf{y} \in \mathbb{R}^m$ (intermediate vector)
 - $L(\mathbf{y}) \in \mathbb{R}$ (final scalar)
-$$\frac{\partial L}{\partial W_{ab}} = \sum_{i=1}^{m} \frac{\partial L}{\partial y_i} \cdot \frac{\partial y_i}{\partial W_{ab}}$$
+$$
+\frac{\partial L}{\partial W_{ab}} = \sum_{i=1}^{m} \frac{\partial L}{\partial y_i} \cdot \frac{\partial y_i}{\partial W_{ab}}
+$$
 Sum over all $m$ components of the intermediate quantity $\mathbf{y}$.
 
 ### **Parameter is matrix, intermediate is matrix**
 - $\theta = W \in \mathbb{R}^{p \times q}$ (parameter matrix)
 - $f(W) = Y \in \mathbb{R}^{m \times k}$ (intermediate matrix)
 - $L(Y) \in \mathbb{R}$ (final scalar)
-$$\frac{\partial L}{\partial W_{ab}} = \sum_{i=1}^{m} \sum_{j=1}^{k} \frac{\partial L}{\partial Y_{ij}} \cdot \frac{\partial Y_{ij}}{\partial W_{ab}}$$
+$$
+\frac{\partial L}{\partial W_{ab}} = \sum_{i=1}^{m} \sum_{j=1}^{k} \frac{\partial L}{\partial Y_{ij}} \cdot \frac{\partial Y_{ij}}{\partial W_{ab}}
+$$
 Sum over all $m \times k$ components of the intermediate quantity $Y$.
 
 ## How does chain rule work here?
 Suppose we have: 
-$$L = L(f_3(f_2(f_1(\theta))))$$
+$$
+L = L(f_3(f_2(f_1(\theta))))
+$$
 Where:
 - $\theta$ is your parameter
 - $f_1(\theta)$ is the first intermediate quantity

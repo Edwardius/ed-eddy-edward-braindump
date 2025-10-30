@@ -18,10 +18,18 @@ $$
 $$
 > [!info] FOR G[z], THE FINAL VALUE THEOREM IS WHEN $z$ GOES TO 1
 # Proof Setup 
-$$g[k] = \mathcal{Z}^{-1}(G[z]) \;\;\text{(Definition of impulse response)}$$
-$$= \mathcal{Z}^{-1}\left(G[\infty] + \sum_{i=1}^{n} \sum_{j=1}^{n_i} \frac{c_{i,j}}{(z-p_i)^j}\right)$$
-$$= G[\infty]\mathcal{Z}^{-1}(1) + \sum_{i=1}^{n} \sum_{j=1}^{n_i} c_{i,j}\mathcal{Z}^{-1}\left(\frac{1}{(z-p_i)^j}\right)$$
-$$= G[\infty] \cdot \delta[k] + \sum_{i=1}^{n} \sum_{j=1}^{n_i} c_{i,j} \frac{n(n-1)\dots(n-k+1)}{k!} p_i^{k-j}$$
+$$
+g[k] = \mathcal{Z}^{-1}(G[z]) \;\;\text{(Definition of impulse response)}
+$$
+$$
+= \mathcal{Z}^{-1}\left(G[\infty] + \sum_{i=1}^{n} \sum_{j=1}^{n_i} \frac{c_{i,j}}{(z-p_i)^j}\right)
+$$
+$$
+= G[\infty]\mathcal{Z}^{-1}(1) + \sum_{i=1}^{n} \sum_{j=1}^{n_i} c_{i,j}\mathcal{Z}^{-1}\left(\frac{1}{(z-p_i)^j}\right)
+$$
+$$
+= G[\infty] \cdot \delta[k] + \sum_{i=1}^{n} \sum_{j=1}^{n_i} c_{i,j} \frac{n(n-1)\dots(n-k+1)}{k!} p_i^{k-j}
+$$
 # Proof of Part 1
 $$
 

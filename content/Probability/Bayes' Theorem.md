@@ -1,7 +1,9 @@
 # Basic Bayes' Theorem
 Also known as Bayes' rule or Bayes' law  is a result in probability theory that relates conditional probabilities. 
 
-$$P(A|B)=\frac{P(B|A)P(A)}{P(B)}$$
+$$
+P(A|B)=\frac{P(B|A)P(A)}{P(B)}
+$$
 
 where:
 - $P(A|B)$

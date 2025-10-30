@@ -1,5 +1,7 @@
 Any rational transfer function can be written as
-$$P(s) = P(\infty) + \sum_{i=1}^{n} \sum_{j=1}^{n_i} \frac{c_{i,j}}{(s - p_i)^j}$$
+$$
+P(s) = P(\infty) + \sum_{i=1}^{n} \sum_{j=1}^{n_i} \frac{c_{i,j}}{(s - p_i)^j}
+$$
 And in Discrete Space
 $$
 G[z]=G[\infty]+\sum ^{n}_{i=1}\sum ^{n_{i}}_{j=1} \frac{c_{i,j}}{(z-p_{i})^j}

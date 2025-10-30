@@ -51,7 +51,9 @@ We have:
 - Loss: $\mathcal{L} = -\sum_{i=1}^{C} y_i \log(\hat{y}_i)$
 - Goal: find $\frac{\partial \mathcal{L}}{\partial z_k}$ where $k$ denotes an arbitrary index of z (we need to find all $z_{k}$ to form $\frac{\partial \mathcal{L}}{\partial z}$ )
 
-$$\frac{\partial \mathcal{L}}{\partial \hat{y}_i} = -\frac{y_i}{\hat{y}_i}$$
+$$
+\frac{\partial \mathcal{L}}{\partial \hat{y}_i} = -\frac{y_i}{\hat{y}_i}
+$$
 
 **Chain rule to get gradient w.r.t. pre-softmax**
 

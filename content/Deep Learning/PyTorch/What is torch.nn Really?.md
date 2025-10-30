@@ -91,19 +91,28 @@ bias = torch.zeros(10, device=device, requires_grad=True)
 **Problem:** Keep variance constant across layers during forward/backward pass.
 
 **Forward pass:** For $y = \sum_{i=1}^{n_{in}} w_i x_i$, assuming independence and zero mean:
-$$\text{Var}(y) = n_{in} \cdot \text{Var}(w) \cdot \text{Var}(x)$$
+$$
+\text{Var}(y) = n_{in} \cdot \text{Var}(w) \cdot \text{Var}(x)$$
 
 **Goal:** $\text{Var}(y) = \text{Var}(x)$ requires:
-$$n_{in} \cdot \text{Var}(w) = 1 \implies \text{Var}(w) = \frac{1}{n_{in}}$$
+$$
+n_{in} \cdot \text{Var}(w) = 1 \implies \text{Var}(w) = \frac{1}{n_{in}}
+$$
 
 **Backward pass:** By symmetry, preserving gradient variance requires:
-$$n_{out} \cdot \text{Var}(w) = 1 \implies \text{Var}(w) = \frac{1}{n_{out}}$$
+$$
+n_{out} \cdot \text{Var}(w) = 1 \implies \text{Var}(w) = \frac{1}{n_{out}}
+$$
 
 **Xavier compromise** (average both constraints):
-$$\text{Var}(w) = \frac{2}{n_{in} + n_{out}}$$
+$$
+\text{Var}(w) = \frac{2}{n_{in} + n_{out}}
+$$
 
 **So if we initialize weights as normal distribution:**
-$$W_{ij} \sim \mathcal{N}\left(\mu = 0, \sigma = \sqrt{\frac{2}{n_{in} + n_{out}}}\right)$$
+$$
+W_{ij} \sim \mathcal{N}\left(\mu = 0, \sigma = \sqrt{\frac{2}{n_{in} + n_{out}}}\right)
+$$
 
 **Implementation:**
 ```python
@@ -111,7 +120,10 @@ std = np.sqrt(2.0 / (n_in + n_out))
 W = np.random.normal(0, std, size=(n_out, n_in))
 ```
 
-But thing is the input is usually >> than the output, so people just do $$\frac{1}{\sqrt{n_{in}}}$$
+But thing is the input is usually >> than the output, so people just do 
+$$
+\frac{1}{\sqrt{n_{in}}}
+$$
 ```python
 # Lets define some raw python functions on these tensors
 def log_softmax(x):

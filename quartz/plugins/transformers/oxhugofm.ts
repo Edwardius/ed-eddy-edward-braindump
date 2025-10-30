@@ -92,7 +92,8 @@ export const OxHugoFlavouredMarkdown: QuartzTransformerPlugin<Partial<Options>> 
         })
         src = src.replaceAll(blockLatexRegex, (_value, ...capture) => {
           const [eqn] = capture
-          return `$$${eqn}$$`
+          return `$$${eqn}
+$$`
         })
 
         // ox-hugo escapes _ as \_
