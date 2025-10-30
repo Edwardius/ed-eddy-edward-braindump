@@ -6,3 +6,4 @@ Quick links to my deep learning notes (also see [[00 - Multivariate Calculus Tab
 [[PyTorch Computational Graph]]
 [[Layers]]
 [[Spectral Bias]]
+[[Inductive Biases]]
