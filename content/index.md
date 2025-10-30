@@ -30,6 +30,7 @@ Feel free to explore using:
 [[00 - Physiological Psychology Table of Contents]]
 [[00 - Deep Learning Table of Contents]]
 [[00 - Multivariate Calculus Table of Contents]]
+[[Why do I keep Roboting?]]
 
 ## A Living Document
 

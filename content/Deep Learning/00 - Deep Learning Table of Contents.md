@@ -22,3 +22,9 @@ Quick links to my deep learning notes (also see [[00 - Multivariate Calculus Tab
 [[PyTorch Numpy]]
 [[PyTorch Operations]]
 [[What is torch.nn Really?]]
+
+# Practice
+[[Differentiable Camera Projection]]
+[[Learning an Image]]
+[[Learned Kalmann Filter]]
+[[Segmentation]]
