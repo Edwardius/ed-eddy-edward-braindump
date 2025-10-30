@@ -54,7 +54,9 @@ $$\frac{\partial \mathcal{L}}{\partial z_k} = \sum_{i=1}^{C} \left(-\frac{y_i}{\
 
 **Split the sum into two cases**
 
-The Jacobian of softmax is: $$\frac{\partial \hat{y}_i}{\partial z_k} = \begin{cases} \hat{y}_i(1 - \hat{y}_i) & \text{if } i = k \\ -\hat{y}_i \hat{y}_k & \text{if } i \neq k \end{cases}$$
+The Jacobian of softmax is: 
+
+$$\frac{\partial \hat{y}_i}{\partial z_k} = \begin{cases} \hat{y}_i(1 - \hat{y}_i) & \text{if } i = k \\ -\hat{y}_i \hat{y}_k & \text{if } i \neq k \end{cases}$$
 > [!info] this is because we have $\hat{y} = \text{softmax}(z)$!!!! All the activation functions correlate like this, its how the whole thing connects together.
 $$
 a_{i}=\sigma (z)=\frac{1}{1+e^{ -z }}
@@ -69,9 +71,12 @@ So:
 
 $$\frac{\partial \mathcal{L}}{\partial z_k} = \left(-\frac{y_k}{\hat{y}_k}\right) \cdot \hat{y}_k(1 - \hat{y}_k) + \sum_{i \neq k} \left(-\frac{y_i}{\hat{y}_i}\right) \cdot (-\hat{y}_i \hat{y}_k)$$
 
-First term: $$-\frac{y_k}{\hat{y}_k} \cdot \hat{y}_k(1 - \hat{y}_k) = -y_k(1 - \hat{y}_k) = -y_k + y_k \hat{y}_k$$
+First term: 
+$$-\frac{y_k}{\hat{y}_k} \cdot \hat{y}_k(1 - \hat{y}_k) = -y_k(1 - \hat{y}_k) = -y_k + y_k \hat{y}_k$$
 
-Second term: $$\sum_{i \neq k} \left(-\frac{y_i}{\hat{y}_i}\right) \cdot (-\hat{y}_i \hat{y}_k) = \sum_{i \neq k} y_i \hat{y}_k = \hat{y}_k \sum_{i \neq k} y_i$$
+Second term: 
+
+$$\sum_{i \neq k} \left(-\frac{y_i}{\hat{y}_i}\right) \cdot (-\hat{y}_i \hat{y}_k) = \sum_{i \neq k} y_i \hat{y}_k = \hat{y}_k \sum_{i \neq k} y_i$$
 
 **Combine**
 

@@ -6,7 +6,8 @@ When faced with a component-wise gradient, follow these steps:
 
 ### Step 1: Write Out the Component Form
 
-Start with the chain rule: $$\frac{\partial L}{\partial \theta_{\text{indices}}} = \sum_{\text{all } f} \frac{\partial L}{\partial f_{\text{indices}}} \cdot \frac{\partial f_{\text{indices}}}{\partial \theta_{\text{indices}}}$$
+Start with the chain rule: 
+$$\frac{\partial L}{\partial \theta_{\text{indices}}} = \sum_{\text{all } f} \frac{\partial L}{\partial f_{\text{indices}}} \cdot \frac{\partial f_{\text{indices}}}{\partial \theta_{\text{indices}}}$$
 
 ### Step 2: Identify Kronecker Deltas
 
@@ -37,25 +38,32 @@ Check that all matrix dimensions are compatible!
 
 ### Kronecker Delta ($\delta_{ij}$)
 
-**Definition**: $$\delta_{ij} = \begin{cases} 1 & \text{if } i = j \\ 0 & \text{if } i \neq j \end{cases}$$
+**Definition**:
+$$\delta_{ij} = \begin{cases} 1 & \text{if } i = j \\ 0 & \text{if } i \neq j \end{cases}$$
 **Power**: It **selects** terms from sums and **eliminates** irrelevant indices.
-**Key Property**: $$\sum_{k} a_k \delta_{ik} = a_i$$
+**Key Property**: 
+$$\sum_{k} a_k \delta_{ik} = a_i$$
 The sum collapses to just the $i$-th term!
 - **notice how $a_{k}$ turns into $a_{i}$**
 #### Pattern 1: Derivatives of Parameters w.r.t. Themselves
+
 $$\frac{\partial \theta_i}{\partial \theta_j} = \delta_{ij}$$
-For matrices: $$\frac{\partial W_{ij}}{\partial W_{\ell k}} = \delta_{i\ell} \delta_{jk}$$
+For matrices: 
+$$\frac{\partial W_{ij}}{\partial W_{\ell k}} = \delta_{i\ell} \delta_{jk}$$
 **Why it matters**: When you see $\frac{\partial W_{ij}}{\partial W_{\ell k}}$ in a sum, it kills all terms except where $i=\ell$ and $j=k$.
 
 **Example**: Linear layer $\mathbf{y} = W\mathbf{x}$
 Component form: 
 $$y_i = \sum_{j} W_{ij} x_j$$
-Derivative: $$\frac{\partial y_i}{\partial W_{\ell k}} = \frac{\partial}{\partial W_{\ell k}} \sum_{j} W_{ij} x_j = \sum_{j} x_j \delta_{i\ell} \delta_{jk} = \delta_{i\ell} x_k$$
+Derivative: 
+$$\frac{\partial y_i}{\partial W_{\ell k}} = \frac{\partial}{\partial W_{\ell k}} \sum_{j} W_{ij} x_j = \sum_{j} x_j \delta_{i\ell} \delta_{jk} = \delta_{i\ell} x_k$$
 
 The double Kronecker delta collapses the sum instantly!
 #### Pattern 2: Identity Functions
-For a function $\mathbf{y} = \mathbf{x}$ (identity): $$\frac{\partial y_i}{\partial x_j} = \delta_{ij}$$
-In chain rule: $$\frac{\partial L}{\partial x_j} = \sum_{i} \frac{\partial L}{\partial y_i} \delta_{ij} = \frac{\partial L}{\partial y_j}$$
+For a function $\mathbf{y} = \mathbf{x}$ (identity): 
+$$\frac{\partial y_i}{\partial x_j} = \delta_{ij}$$
+In chain rule: 
+$$\frac{\partial L}{\partial x_j} = \sum_{i} \frac{\partial L}{\partial y_i} \delta_{ij} = \frac{\partial L}{\partial y_j}$$
 This is useful for linear layers like ReLU.
 ### Recognizing Matrix Products
 I got a good number of them in [[Matrix and Component Forms]]

@@ -15,9 +15,12 @@ Where:
 
 We apply chain rule repeatedly, but as separate summations
 
-**Step 1**: From $f_3$ to $f_2$ $$\frac{\partial L}{\partial (f_2)_{\beta}} = \sum_{\gamma} \frac{\partial L}{\partial (f_3)_{\gamma}} \cdot \frac{\partial (f_3)_{\gamma}}{\partial (f_2)_{\beta}}$$
-**Step 2**: From $f_2$ to $f_1$ $$\frac{\partial L}{\partial (f_1)_{\alpha}} = \sum_{\beta} \frac{\partial L}{\partial (f_2)_{\beta}} \cdot \frac{\partial (f_2)_{\beta}}{\partial (f_1)_{\alpha}}$$
-**Step 3**: From $f_1$ to $\theta$ $$\frac{\partial L}{\partial \theta_{\text{indices}}} = \sum_{\alpha} \frac{\partial L}{\partial (f_1)_{\alpha}} \cdot \frac{\partial (f_1)_{\alpha}}{\partial \theta_{\text{indices}}}$$
+**Step 1**: From $f_3$ to $f_2$ 
+$$\frac{\partial L}{\partial (f_2)_{\beta}} = \sum_{\gamma} \frac{\partial L}{\partial (f_3)_{\gamma}} \cdot \frac{\partial (f_3)_{\gamma}}{\partial (f_2)_{\beta}}$$
+**Step 2**: From $f_2$ to $f_1$ 
+$$\frac{\partial L}{\partial (f_1)_{\alpha}} = \sum_{\beta} \frac{\partial L}{\partial (f_2)_{\beta}} \cdot \frac{\partial (f_2)_{\beta}}{\partial (f_1)_{\alpha}}$$
+**Step 3**: From $f_1$ to $\theta$ 
+$$\frac{\partial L}{\partial \theta_{\text{indices}}} = \sum_{\alpha} \frac{\partial L}{\partial (f_1)_{\alpha}} \cdot \frac{\partial (f_1)_{\alpha}}{\partial \theta_{\text{indices}}}$$
 If you substitute Step 1 into Step 2 into Step 3:
 
 $$\frac{\partial L}{\partial \theta_{\text{indices}}} = \sum_{\alpha} \sum_{\beta} \sum_{\gamma} \frac{\partial L}{\partial (f_3)_{\gamma}} \cdot \frac{\partial (f_3)_{\gamma}}{\partial (f_2)_{\beta}} \cdot \frac{\partial (f_2)_{\beta}}{\partial (f_1)_{\alpha}} \cdot \frac{\partial (f_1)_{\alpha}}{\partial \theta_{\text{indices}}}$$
@@ -62,15 +65,20 @@ As we compute the forward pass, we:
 
 Starting from $L$, we propagate gradients backwards through each edge:
 
-**Step 1**: Initialize $$\frac{\partial L}{\partial L} = 1$$
+**Step 1**: Initialize 
+$$\frac{\partial L}{\partial L} = 1$$
 
-**Step 2**: From $L$ to $f_3$ $$\frac{\partial L}{\partial f_3} = \frac{\partial L}{\partial L} \cdot \frac{\partial L}{\partial f_3} = 1 \cdot \frac{\partial L}{\partial f_3}$$
+**Step 2**: From $L$ to $f_3$ 
+$$\frac{\partial L}{\partial f_3} = \frac{\partial L}{\partial L} \cdot \frac{\partial L}{\partial f_3} = 1 \cdot \frac{\partial L}{\partial f_3}$$
 
-**Step 3**: From $f_3$ to $f_2$ (using chain rule) $$\frac{\partial L}{\partial f_2} = \frac{\partial L}{\partial f_3} \cdot \frac{\partial f_3}{\partial f_2}$$
+**Step 3**: From $f_3$ to $f_2$ (using chain rule) 
+$$\frac{\partial L}{\partial f_2} = \frac{\partial L}{\partial f_3} \cdot \frac{\partial f_3}{\partial f_2}$$
 
-**Step 4**: From $f_2$ to $f_1$ $$\frac{\partial L}{\partial f_1} = \frac{\partial L}{\partial f_2} \cdot \frac{\partial f_2}{\partial f_1}$$
+**Step 4**: From $f_2$ to $f_1$ 
+$$\frac{\partial L}{\partial f_1} = \frac{\partial L}{\partial f_2} \cdot \frac{\partial f_2}{\partial f_1}$$
 
-**Step 5**: From $f_1$ to $\theta$ $$\frac{\partial L}{\partial \theta} = \frac{\partial L}{\partial f_1} \cdot \frac{\partial f_1}{\partial \theta}$$
+**Step 5**: From $f_1$ to $\theta$ 
+$$\frac{\partial L}{\partial \theta} = \frac{\partial L}{\partial f_1} \cdot \frac{\partial f_1}{\partial \theta}$$
 
 At each step, we:
 

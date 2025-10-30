@@ -23,9 +23,12 @@ Given that
 $$
 \frac{\partial\mathcal{L}}{\partial z}=\left[ \delta_{1},\delta_{2},\dots,\delta_{m} \right]
 $$
-And so$$\frac{\partial \mathcal{L}}{\partial b} = \sum_{i=1}^{m} \delta_i$$
-**Kernel gradient:** $$\frac{\partial \mathcal{L}}{\partial w_j} = \sum_{i=1}^{m} \delta_i \cdot x_{i+j-1}, \quad j \in {1, ..., k}$$
-**Input gradient:** $$\frac{\partial \mathcal{L}}{\partial x_p} = \sum_{i=\max(1, p-k+1)}^{\min(m, p)} \delta_i \cdot w_{p-i+1}, \quad p \in {1, ..., n}$$
+And so
+$$\frac{\partial \mathcal{L}}{\partial b} = \sum_{i=1}^{m} \delta_i$$
+**Kernel gradient:** 
+$$\frac{\partial \mathcal{L}}{\partial w_j} = \sum_{i=1}^{m} \delta_i \cdot x_{i+j-1}, \quad j \in {1, ..., k}$$
+**Input gradient:** 
+$$\frac{\partial \mathcal{L}}{\partial x_p} = \sum_{i=\max(1, p-k+1)}^{\min(m, p)} \delta_i \cdot w_{p-i+1}, \quad p \in {1, ..., n}$$
 ##### Convolutional Layer (2D Case)
 Here, I'm going to generalize to any dimensional convolution to 2D since that's when its used. $z$ -> $Z$ which is a tensor, $x$ -> $X$ which is a tensor, $W$ is the weight matricies we use for convolutions AKA kernels.
 $$
@@ -64,14 +67,18 @@ where:
 
 This is the most complex. Given $\frac{\partial \mathcal{L}}{\partial \text{out}}$:
 
-**Gradient w.r.t. $V$:** $$\frac{\partial \mathcal{L}}{\partial V} = A^T \cdot \frac{\partial \mathcal{L}}{\partial \text{out}}$$
-**Gradient w.r.t. attention weights $A$:** $$\frac{\partial \mathcal{L}}{\partial A} = \frac{\partial \mathcal{L}}{\partial \text{out}} \cdot V^T$$
+**Gradient w.r.t. $V$:** 
+$$\frac{\partial \mathcal{L}}{\partial V} = A^T \cdot \frac{\partial \mathcal{L}}{\partial \text{out}}$$
+**Gradient w.r.t. attention weights $A$:** 
+$$\frac{\partial \mathcal{L}}{\partial A} = \frac{\partial \mathcal{L}}{\partial \text{out}} \cdot V^T$$
 **Gradient through softmax:** Let $S = \frac{QK^T}{\sqrt{d_k}}$ (pre-softmax scores)
 $$\frac{\partial \mathcal{L}}{\partial S} = A \odot \left(\frac{\partial \mathcal{L}}{\partial A} - \text{rowsum}\left(\frac{\partial \mathcal{L}}{\partial A} \odot A\right)\right)$$
 
 (This comes from the softmax Jacobian - messy but necessary)
 
-**Gradient w.r.t. $Q$ and $K$:** $$\frac{\partial \mathcal{L}}{\partial Q} = \frac{1}{\sqrt{d_k}} \cdot \frac{\partial \mathcal{L}}{\partial S} \cdot K$$$$\frac{\partial \mathcal{L}}{\partial K} = \frac{1}{\sqrt{d_k}} \cdot \frac{\partial \mathcal{L}}{\partial S}^T \cdot Q$$
+**Gradient w.r.t. $Q$ and $K$:** 
+$$\frac{\partial \mathcal{L}}{\partial Q} = \frac{1}{\sqrt{d_k}} \cdot \frac{\partial \mathcal{L}}{\partial S} \cdot K$$$$\frac{\partial \mathcal{L}}{\partial K} = \frac{1}{\sqrt{d_k}} \cdot \frac{\partial \mathcal{L}}{\partial S}^T \cdot Q$$
 
-**Finally, gradients w.r.t. weight matrices:** $$\frac{\partial \mathcal{L}}{\partial W_Q} = X^T \cdot \frac{\partial \mathcal{L}}{\partial Q}$$$$\frac{\partial \mathcal{L}}{\partial W_K} = X^T \cdot \frac{\partial \mathcal{L}}{\partial K}$$
+**Finally, gradients w.r.t. weight matrices:** 
+$$\frac{\partial \mathcal{L}}{\partial W_Q} = X^T \cdot \frac{\partial \mathcal{L}}{\partial Q}$$$$\frac{\partial \mathcal{L}}{\partial W_K} = X^T \cdot \frac{\partial \mathcal{L}}{\partial K}$$
 $$\frac{\partial \mathcal{L}}{\partial W_V} = X^T \cdot \frac{\partial \mathcal{L}}{\partial V}$$
