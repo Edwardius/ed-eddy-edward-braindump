@@ -5,3 +5,4 @@ Quick links to my deep learning notes (also see [[00 - Multivariate Calculus Tab
 [[Optimizers]]
 [[PyTorch Computational Graph]]
 [[Layers]]
+[[Spectral Bias]]
