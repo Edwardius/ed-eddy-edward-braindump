@@ -1,0 +1,1 @@
+These relate to algorithms that have to do with robot's processing and acting on the world around it. This does not include implementation specific details like tools and coding standards. For that see [[00 - Roboting]]
