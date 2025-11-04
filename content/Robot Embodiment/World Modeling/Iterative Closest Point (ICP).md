@@ -14,7 +14,7 @@ $$ where $c(i)$ denotes the index of the closest point in $\mathbf{Q}$ to the tr
 ## Correspondence
 It will associate every point with the closest point in the target pointcloud
 $$
-$c(i) = \arg\min_{j} \|\mathbf{R}\mathbf{p}_i + \mathbf{t} - \mathbf{q}_j\|
+c(i) = \arg\min_{j} \|\mathbf{R}\mathbf{p}_i + \mathbf{t} - \mathbf{q}_j\|
 $$
 ## Transformation
 There is both a closed and iterative form of the transformation step.
@@ -63,5 +63,5 @@ Once we have $\mathbf{R}$, the translation is simply:
 
 $$\mathbf{t} = \bar{\mathbf{q}} - \mathbf{R}\bar{\mathbf{p}}$$
 
-**This is done iteratively until we reach some threshold error to stop at.**
+**This is done iteratively until we reach some threshold error to stop at.** The SVD approach here is a closed-form approach for finding a transformation based on correspondence. However, its not final. We have to perform the transform / compute new correspondences, and compute a new transform.
 
