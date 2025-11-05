@@ -178,19 +178,19 @@ Here's a comprehensive cheatsheet of all your LaTeX shortcuts:
 
 ## Derivatives and Integrals
 
-|Trigger|Replacement|Description|Example|
-|---|---|---|---|
-|`par`|`\frac{ \partial y }{ \partial x }`|Partial derivative|$\frac{\partial y}{\partial x}$|
-|`paxy`|`\frac{ \partial x }{ \partial y }`|Partial (auto)|$\frac{\partial x}{\partial y}$|
-|`ddt`|`\frac{d}{dt}`|Time derivative|$\frac{d}{dt}$|
-|`int`|`\int`|Integral|$\int$|
-|`\int` (in math)|`\int f \, dx`|Integral with differential|$\int f , dx$|
-|`dint`|`\int_{0}^{1} f \, dx`|Definite integral|$\int_{0}^{1} f , dx$|
-|`oint`|`\oint`|Contour integral|$\oint$|
-|`iint`|`\iint`|Double integral|$\iint$|
-|`iiint`|`\iiint`|Triple integral|$\iiint$|
-|`oinf`|`\int_{0}^{\infty} f \, dx`|0 to infinity|$\int_{0}^{\infty} f , dx$|
-|`infi`|`\int_{-\infty}^{\infty} f \, dx`|-inf to inf|$\int_{-\infty}^{\infty} f , dx$|
+| Trigger          | Replacement                         | Description                | Example                          |
+| ---------------- | ----------------------------------- | -------------------------- | -------------------------------- |
+| `par` (tab)      | `\frac{ \partial y }{ \partial x }` | Partial derivative         | $\frac{\partial y}{\partial x}$  |
+| `paxy` (tab)     | `\frac{ \partial x }{ \partial y }` | Partial (auto)             | $\frac{\partial x}{\partial y}$  |
+| `ddt`            | `\frac{d}{dt}`                      | Time derivative            | $\frac{d}{dt}$                   |
+| `int`            | `\int`                              | Integral                   | $\int$                           |
+| `\int` (in math) | `\int f \, dx`                      | Integral with differential | $\int f , dx$                    |
+| `dint`           | `\int_{0}^{1} f \, dx`              | Definite integral          | $\int_{0}^{1} f , dx$            |
+| `oint`           | `\oint`                             | Contour integral           | $\oint$                          |
+| `iint`           | `\iint`                             | Double integral            | $\iint$                          |
+| `iiint`          | `\iiint`                            | Triple integral            | $\iiint$                         |
+| `oinf`           | `\int_{0}^{\infty} f \, dx`         | 0 to infinity              | $\int_{0}^{\infty} f , dx$       |
+| `infi`           | `\int_{-\infty}^{\infty} f \, dx`   | -inf to inf                | $\int_{-\infty}^{\infty} f , dx$ |
 
 ## Trigonometry
 

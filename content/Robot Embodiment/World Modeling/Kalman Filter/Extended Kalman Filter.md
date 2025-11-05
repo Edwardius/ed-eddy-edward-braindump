@@ -18,3 +18,10 @@ $$
 $$
 \mathbf{z}_{k}=h(\mathbf{x}_{k})+\mathbf{v}_{k}
 $$
+# Linearization
+The way an EKF gets around this is by **linearizing the non-linear system**! This is done via a [[Taylor Series]] (only using a first-order approximation).
+
+$$
+\mathbf{F}_{k}=\frac{ \partial f }{ \partial \mathbf{x} } \bigg|_{\hat{\mathbf{x}}_{k|k-1},\mathbf{u}_{k}}
+$$
+
