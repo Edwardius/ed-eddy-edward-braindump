@@ -13,7 +13,7 @@ The conversions between the lie algebra and lie group is known as exponential an
 - **log:** Lie Group -> Lie Algebra
 
 ## Isomorphisms
-When we derive the Lie Algebra, we can end up in a space thats a bit weird to work with (ie. in $S^{1}$ we end up in the space $i\mathbb{R}$). As a result, we'd like to do a small helper operation that lets us directly handle Lie Algebra ($i\mathbb{R}$, $\mathbb{R}^{3\times 3}$) in a Cartesian space ($\mathbb{R}$, $\mathbb{R}^{6}$). These are what we define as the **Hat** and **Vee** Operators
+When we derive the Lie Algebra, we can end up in a space thats a bit weird to work with (ie. in $S^{1}$ we end up in the space $i\mathbb{R}$). As a result, we'd like to do a small helper operation that lets us directly handle Lie Algebra ($i\mathbb{R}$, $\mathbb{R}^{3\times 3}$) in a Cartesian space ($\mathbb{R}$, $\mathbb{R}^{6}$). These are what we define as the **Hat** and **Vee** Operators. It preserves distance 
 
 ![[Pasted image 20251106091510.png]]
 

@@ -11,3 +11,8 @@ I don't know why it took me so long, but the motivation of [[Lie Algebra]] and L
 |↓ Inverse Laplace|↓ Exponential map|
 |Back to time domain with solution|Back to Lie group with solution|
 Lie Algebra is to #stateEstimation and [[Laplace Transform]] is to [[Control Systems]]
+
+>[!error] The other thing is that we can create a set of elements that follow explicit constraints, and, so long as that set and operation form a Lie Group, we can process it in a linear fashion with Lie Algebra.
+
+---
+**EXAMPLE** [[SE(3)]]

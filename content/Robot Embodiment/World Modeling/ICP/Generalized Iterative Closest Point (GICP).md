@@ -113,3 +113,5 @@ This is a **non-linear least squares problem**, which can be solved by a class o
 There are many ways to solve for the transformation here. One way is [[Gauss-Newton Method]]
 
 There are other methods, but I can't be bothered to go any further into this for now. small_gicp is fast not because of its optimizer, but rather because of its parallel processing architecture and a bunch of implementation optimizations.
+
+> [!error] Surprise! Underthehood, we are actually calculating the Mahalanobis Distance with [[Lie Algebra]].
