@@ -1,0 +1,1 @@
+Goal is to find a set of poses (node values) that best solve all of the constraints. We use a non-linear solver like Ceres. 

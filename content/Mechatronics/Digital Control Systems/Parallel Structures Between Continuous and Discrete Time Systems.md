@@ -13,7 +13,7 @@ The **Inverse Laplace Transform** is given by
 $$
 x(t) = \mathcal{L}^{-1}\{X(s)\} = \frac{1}{2\pi j} \int_{\sigma - j\infty}^{\sigma + j\infty} X(s)e^{st} \, ds
 $$
-Following that, we can take the Laplace Transform of the dynamical system.
+Following that, we can take the [[Laplace Transform]] of the dynamical system.
 $$
 \mathcal{L} \implies\sum_{i=0}^{n} a_i s^i Y(s) - \sum_{j=0}^{m} b_j s^j U(s) = 0
 $$

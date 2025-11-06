@@ -8,3 +8,8 @@ $$
 \frac{\partial f_m}{\partial x_1} & \frac{\partial f_m}{\partial x_2} & \cdots & \frac{\partial f_m}{\partial x_n}
 \end{bmatrix}
 $$
+
+### From First Principles
+$$
+\mathbf{J}\triangleq \lim_{ n \to 0 } \frac{f(\mathbf{x}+\mathbf{h})-f(\mathbf{x})}{\mathbf{h}} \in \mathbb{R}^{n\times m}
+$$
