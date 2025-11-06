@@ -1,3 +1,4 @@
+#stateEstimation
 Measures the "distance" a point is from a distribution. It measures the number of standard deviations a point is from a distribution.
 
 In component form:

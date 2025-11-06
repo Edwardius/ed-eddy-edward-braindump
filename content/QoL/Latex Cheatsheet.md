@@ -125,27 +125,27 @@ Here's a comprehensive cheatsheet of all your LaTeX shortcuts:
 
 ## Relations and Logic
 
-|Trigger|Replacement|Description|Example|
-|---|---|---|---|
-|`in`|`\in`|Element of|$\in$|
-|`inn`|`\in`|Element of|$\in$|
-|`notin`|`\not\in`|Not element of|$\not\in$|
-|`sub=`|`\subseteq`|Subset or equal|$\subseteq$|
-|`sup=`|`\supseteq`|Superset or equal|$\supseteq$|
-|`eset`|`\emptyset`|Empty set|$\emptyset$|
-|`set`|`\{ $0 \}$1`|Set brackets|${a, b}$|
-|`+-`|`\pm`|Plus-minus|$\pm$|
-|`-+`|`\mp`|Minus-plus|$\mp$|
-|`!=`|`\neq`|Not equal|$\neq$|
-|`>=`|`\geq`|Greater or equal|$\geq$|
-|`<=`|`\leq`|Less or equal|$\leq$|
-|`>>`|`\gg`|Much greater|$\gg$|
-|`<<`|`\ll`|Much less|$\ll$|
-|`simm`|`\sim`|Similar|$\sim$|
-|`sim=`|`\simeq`|Similar or equal|$\simeq$|
-|`===`|`\equiv`|Equivalent|$\equiv$|
-|`prop`|`\propto`|Proportional|$\propto$|
-|`para`|`\parallel`|Parallel|$\parallel$|
+| Trigger | Replacement  | Description       | Example     |
+| ------- | ------------ | ----------------- | ----------- |
+| `in`    | `\in`        | Element of        | $\in$       |
+| `inn`   | `\in`        | Element of        | $\in$       |
+| `notin` | `\not\in`    | Not element of    | $\not\in$   |
+| `sub=`  | `\subseteq`  | Subset or equal   | $\subseteq$ |
+| `sup=`  | `\supseteq`  | Superset or equal | $\supseteq$ |
+| `eset`  | `\emptyset`  | Empty set         | $\emptyset$ |
+| `set`   | `\{ $0 \}$1` | Set brackets      | ${a, b}$    |
+| `+-`    | `\pm`        | Plus-minus        | $\pm$       |
+| `-+`    | `\mp`        | Minus-plus        | $\mp$       |
+| `!=`    | `\neq`       | Not equal         | $\neq$      |
+| `>=`    | `\geq`       | Greater or equal  | $\geq$      |
+| `<=`    | `\leq`       | Less or equal     | $\leq$      |
+| `>>`    | `\gg`        | Much greater      | $\gg$       |
+| `<<`    | `\ll`        | Much less         | $\ll$       |
+| `simm`  | `\sim`       | Similar           | $\sim$      |
+| `sim=`  | `\simeq`     | Similar or equal  | $\simeq$    |
+| `===`   | `\equiv`     | Equivalent        | $\equiv$    |
+| `prop`  | `\propto`    | Proportional      | $\propto$   |
+| `para`  | `\parallel`  | Parallel          | $\parallel$ |
 
 ## Arrows
 
@@ -159,11 +159,11 @@ Here's a comprehensive cheatsheet of all your LaTeX shortcuts:
 
 ## Set Operations
 
-|Trigger|Replacement|Description|Example|
-|---|---|---|---|
-|`and`|`\cap`|Intersection|$\cap$|
-|`orr`|`\cup`|Union|$\cup$|
-|`\\\`|`\setminus`|Set difference|$\setminus$|
+| Trigger | Replacement | Description    | Example     |
+| ------- | ----------- | -------------- | ----------- |
+| `and`   | `\cap`      | Intersection   | $\cap$      |
+| `orr`   | `\cup`      | Union          | $\cup$      |
+| `\\\`   | `\setminus` | Set difference | $\setminus$ |
 
 ## Common Sets
 
