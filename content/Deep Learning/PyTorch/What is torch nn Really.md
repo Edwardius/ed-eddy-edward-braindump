@@ -1,4 +1,4 @@
-# What is torch.nn
+# What is torch nn Really
 
 Just an exploration on what PyTorch actually is and the preface for each module actually existing.
 
