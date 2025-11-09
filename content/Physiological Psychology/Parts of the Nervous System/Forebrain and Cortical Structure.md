@@ -1,4 +1,4 @@
-#brain
+#brain #forebrain #diencephalon #telencephalon #hypothamalus #thalamus #limbic #cerebralCortex #basalGanglia 
 
 ![[Pasted image 20251003151000.png]]
 ![[Pasted image 20251003150937.png]]

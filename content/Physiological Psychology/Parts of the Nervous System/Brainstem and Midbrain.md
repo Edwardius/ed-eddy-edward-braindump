@@ -1,11 +1,5 @@
-#brain #proprioception 
+#brain #proprioception #midbrain #mesencephalon #hindbrain #metencephalon #mylencephalon
 # **Brainstem and Midbrain**
-
-![[Pasted image 20251003150639.png]]
-## **Major Brain Divisions**
-- **Forebrain**: telencephalon (cortex, basal ganglia, limbic system) + diencephalon (thalamus, hypothalamus).
-- **Midbrain**: tectum + tegmentum.
-- **Hindbrain**: metencephalon (pons, cerebellum) + myelencephalon (medulla).
 
 ## **Brainstem Components**
 
