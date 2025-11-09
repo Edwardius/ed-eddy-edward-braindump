@@ -21,7 +21,7 @@ Organized into several categories:
 - **Indolamines**: from _tryptophan → 5-HTP → serotonin → N-acetylserotonin → melatonin_.
   - Serotonin neurons concentrated in [[Brainstem and Midbrain|brainstem raphe nuclei]]
 - **Acetylcholine**: from _choline + acetyl CoA_.
-  - Key in [[Forebrain and Cortical Structure#Basal Ganglia|basal ganglia]] and motor control
+  - Key in [[Diencephalon#Basal Ganglia|basal ganglia]] and motor control
 ### **Amino Acids**
 - **Glutamate** – major excitatory transmitter.
 - **GABA** – major inhibitory transmitter.

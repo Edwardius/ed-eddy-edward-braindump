@@ -1,0 +1,1 @@
+Software that allows us to comprehend the raw data coming from a sensor (via TCP or USB or whatever), into something that we can actually make sense of.

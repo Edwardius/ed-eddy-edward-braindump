@@ -13,3 +13,5 @@ $$
 Note, this looks like the inside of the exponential of a [[Multivariate Gaussian]]! And it is!
 
 $D_{M}^{2}$ measures the **number of standard deviations** a point is from the distribution.
+
+#worldModeling

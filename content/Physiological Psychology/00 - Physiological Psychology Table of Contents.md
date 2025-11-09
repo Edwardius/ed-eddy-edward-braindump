@@ -67,7 +67,7 @@ This collection covers the biological foundations of psychology, exploring how t
 - Cerebellum (motor coordination, cognition)
 - Midbrain structures (dopamine systems, sensory orienting)
 
-### 9. [Forebrain and Cortical Structure](Forebrain%20and%20Cortical%20Structure.md)
+### 9. [Diencephalon](Diencephalon.md)
 **Core concepts:** Higher-order brain functions
 - Thalamus as relay center
 - Limbic system (memory, emotion)

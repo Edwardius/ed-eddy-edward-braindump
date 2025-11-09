@@ -15,8 +15,12 @@ These relate to algorithms that have to do with robot's processing and acting on
 [[Kalman Filter]]
 [[Extended Kalman Filter]]
 
+## Memory
+(this one is harder to see, but what im trying to get here is that there is some sort of memory management here, something that I feel like exceeds world modeling)
 ## Configuration
 
 ## Action
 
 ## End to End
+
+ #memory #worldModeling #perception #configuration #action #endToEnd

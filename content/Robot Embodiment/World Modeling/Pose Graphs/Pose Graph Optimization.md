@@ -2,3 +2,4 @@ Goal is to find a set of poses (node values) that best solve all of the constrai
 
 ![[Pasted image 20251106110841.png]]
 
+#worldModeling

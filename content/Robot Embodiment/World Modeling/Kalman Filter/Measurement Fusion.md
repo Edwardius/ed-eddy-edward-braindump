@@ -1,4 +1,4 @@
-#stateEstimation
+#stateEstimation 
 You have a [[Kalman Filter]] or [[Extended Kalman Filter]], how do you fuse multiple measurements together?
 
 Its actually pretty simple. To handle multiple measurement types coming in at once. We simply **sequentially update our prediction with the respective measurement type one by one**.
@@ -63,3 +63,4 @@ t=0.010s: IMU message arrives
    ↓
 ```
 
+#worldModeling

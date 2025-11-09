@@ -7,3 +7,5 @@ Review [[Lie Algebra]] to get a better idea of what the fuck is going on. After 
 ![[Pasted image 20251106091018.png]]
 # Setup
 ![[Pasted image 20251106103506.png]]
+
+#worldModeling

@@ -66,3 +66,4 @@ $$\mathbf{t} = \bar{\mathbf{q}} - \mathbf{R}\bar{\mathbf{p}}$$
 
 **This is done iteratively until we reach some threshold error to stop at.** The SVD approach here is a closed-form approach for finding a transformation based on correspondence. However, its not final. We have to perform the transform / compute new correspondences, and compute a new transform.
 
+#worldModeling

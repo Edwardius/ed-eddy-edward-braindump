@@ -127,3 +127,5 @@ $$
 \hat{\mathbf{x}}_{k|k}=\hat{\mathbf{x}}_{k|k-1}+\mathbf{K}_{k}(\mathbf{z}_{k}-h(\hat{\mathbf{x}}_{k|k-1}))
 $$
 Rinse and repeat
+
+#worldModeling

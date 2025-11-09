@@ -59,3 +59,5 @@ $$
 $$
 
 **Special case**: If $\theta = 0$ (R = I), then $\omega = 0$
+
+#worldModeling

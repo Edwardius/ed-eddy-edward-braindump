@@ -5,3 +5,5 @@ A graphical representation of a robot's trajectory through space. It consists of
 >[!info] Each edge has a covariance matrix representing the uncertainty of the constraint.
 
 To reconcile these contraints, we use [[Pose Graph Optimization]].
+
+#worldModeling

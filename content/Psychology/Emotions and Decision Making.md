@@ -5,7 +5,7 @@
 - **Nobel Laureate Herbert Simon** saw this as incomplete, arguing that emotions and human rationality are closely tied to each other
 
 ### 2001 - 2013
-- Research in brain-damaged patients (like those with damage to the [[Forebrain and Cortical Structure#**Lobes of the Cortex**|Ventromedial Prefrontal Cortex]]) showed that people who couldn't feel emotions actually performed worse is decision making, even when other cognitive abilities stayed intact.
+- Research in brain-damaged patients (like those with damage to the [[Diencephalon#**Lobes of the Cortex**|Ventromedial Prefrontal Cortex]]) showed that people who couldn't feel emotions actually performed worse is decision making, even when other cognitive abilities stayed intact.
 ---
 # Integral vs Incidental Emotions
 ## Integral Emotions

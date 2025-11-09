@@ -55,3 +55,4 @@ where $\omega$ is recovered from $\log(R)$ and:
 $$
 J^{-1} = I - \frac{1}{2}[\omega]_\times + \left(\frac{1}{\theta^2} - \frac{1+\cos\theta}{2\theta\sin\theta}\right)[\omega]_\times^2
 $$
+#worldModeling

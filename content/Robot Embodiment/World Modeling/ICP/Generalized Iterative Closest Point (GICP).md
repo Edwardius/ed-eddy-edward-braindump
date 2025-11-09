@@ -1,4 +1,4 @@
-#stateEstimation
+#stateEstimation #worldModeling
 A form of [[Iterative Closest Point (ICP)]] that models each point as a gaussian distribution based on its local neighborhood.
 
 # How it works

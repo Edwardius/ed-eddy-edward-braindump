@@ -168,3 +168,5 @@ $$
 If we have infinite process noise, then the whole system collapses lol.
 
 >[!error] The increase of process noise will result in our system become more uncertain faster. This means that we need more measurements to counteract the rate at which the state covariance is increasing.
+
+#worldModeling
