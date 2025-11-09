@@ -60,7 +60,7 @@ This collection covers the biological foundations of psychology, exploring how t
 - Autonomic nervous system divisions
 - Protective structures (meninges, CSF)
 
-### 8. [Brainstem and Midbrain](Brainstem%20and%20Midbrain.md)
+### 8. [Tectum and Tegmentum](Tectum%20and%20Tegmentum.md)
 **Core concepts:** Basic life functions and arousal
 - Medulla (breathing, cardiovascular control)
 - Pons (sleep-wake, arousal)

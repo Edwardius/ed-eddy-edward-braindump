@@ -17,9 +17,9 @@
 Organized into several categories:
 ### **Amines**
 - **Catecholamines**: derived from _phenylalanine → tyrosine → dopa → dopamine → norepinephrine → epinephrine_.
-  - Dopamine pathways originate in [[Brainstem and Midbrain|midbrain structures]] (VTA, substantia nigra)
+  - Dopamine pathways originate in [[Tectum and Tegmentum|midbrain structures]] (VTA, substantia nigra)
 - **Indolamines**: from _tryptophan → 5-HTP → serotonin → N-acetylserotonin → melatonin_.
-  - Serotonin neurons concentrated in [[Brainstem and Midbrain|brainstem raphe nuclei]]
+  - Serotonin neurons concentrated in [[Tectum and Tegmentum|brainstem raphe nuclei]]
 - **Acetylcholine**: from _choline + acetyl CoA_.
   - Key in [[Diencephalon#Basal Ganglia|basal ganglia]] and motor control
 ### **Amino Acids**

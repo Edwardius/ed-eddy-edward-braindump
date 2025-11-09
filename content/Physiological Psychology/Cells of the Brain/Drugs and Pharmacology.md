@@ -1,7 +1,7 @@
 #brain
 # **Drugs and Pharmacology**
 
-> **Related topics**: [[Synaptic Transmission and Neurotransmitters]] | [[Brainstem and Midbrain]] (dopamine pathways)
+> **Related topics**: [[Synaptic Transmission and Neurotransmitters]] | [[Tectum and Tegmentum]] (dopamine pathways)
 
 ## **Drugs and Toxins at the Synapse**
 ### **Preventing Action Potentials**
