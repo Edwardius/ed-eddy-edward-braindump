@@ -1,4 +1,8 @@
 #brain
+
+> [!error] There are many types of neurotransmitters. This is because neurons can have different receptors for different neurotransmitters, causing different changes to their action potentials. I had this brief epiphany in [[Dopaminergic Systems]]. Its not fundamentally the structure of dopamine that changes how we act, its the receptors and concentration of them in our brain, that just so happen to make dopamine the neurotransmitter responsible for happiness. 
+
+>[!error] When you look at [[00 - Deep Learning Table of Contents|Deep Learning]], a single artificial neuron only communicates with a *single neurotransmitter*. IE. a linear layer outputs a single value! As opposed to an actual neuron, which can spit our different neurotransmitters in different quantities, learning multiple super-imposed models at once... **but also keep in mind that the majority (90%) of neurotransmission is done with Glutamate and GABA**
 # **Synaptic Transmission and Neurotransmitters**
 
 ## **The Synapse**
@@ -16,11 +20,11 @@
 ## **Neurotransmitters**
 Organized into several categories:
 ### **Amines**
-- **Catecholamines**: derived from _phenylalanine → tyrosine → dopa → dopamine → norepinephrine → epinephrine_.
-  - Dopamine pathways originate in [[Tectum and Tegmentum|midbrain structures]] (VTA, substantia nigra)
-- **Indolamines**: from _tryptophan → 5-HTP → serotonin → N-acetylserotonin → melatonin_.
+- **Catecholamines**: derived from _phenylalanine → tyrosine → dopa → dopamine → norepinephrine → epinephrine_. #norepinephrine
+  - Dopamine pathways originate in [[Tectum and Tegmentum|midbrain structures]] (VTA, substantia nigra) #dopamine
+- **Indolamines**: from _tryptophan → 5-HTP → serotonin → N-acetylserotonin → melatonin_. #serotonin
   - Serotonin neurons concentrated in [[Tectum and Tegmentum|brainstem raphe nuclei]]
-- **Acetylcholine**: from _choline + acetyl CoA_.
+- **Acetylcholine**: from _choline + acetyl CoA_. #acetylcholine
   - Key in [[Diencephalon#Basal Ganglia|basal ganglia]] and motor control
 ### **Amino Acids**
 - **Glutamate** – major excitatory transmitter.
