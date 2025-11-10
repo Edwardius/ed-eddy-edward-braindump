@@ -1,6 +1,7 @@
 #neurodevelopment 
 This occurs for our entire lifetime by the way.
 
+This stage is also where **stem cells and progenitor cells become specialized neurons and glia.** Explained in [[Proliferation and Neurogenesis]]
 # Dendritic Arborization
 Dendrites grow elaborate patterns to receive signals from other neurons. These branches increase in length as time passes (and prunes as needed).
 

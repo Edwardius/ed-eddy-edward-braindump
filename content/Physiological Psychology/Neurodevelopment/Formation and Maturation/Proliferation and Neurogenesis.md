@@ -11,4 +11,5 @@ Theres also another form of division which is **Differentiative Division** which
 
 ![[Pasted image 20251109220434.png]]
 
+This process of Differentiative Division is also related to [[Differentiation and Synaptogenesis]].
 Shortly after [[Proliferation and Neurogenesis]] starts, some neurons begin [[Migration]] #neurodevelopment 
