@@ -17,3 +17,4 @@ $$
 \mathcal{P}(10H|p=0.5)=\begin{pmatrix}10 \\
 10\end{pmatrix}(0.5)^{10}=0.00097
 $$
+#probability 

@@ -19,3 +19,4 @@ $$
 
 # Limitations
 Covariance can be heavily skewed if the two variables have different scales. To counteract this, you can either normalize the data (partially the reasoning behind [[Normalization]] techniques), or compute [[Correlation]].
+#probability 

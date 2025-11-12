@@ -20,3 +20,4 @@ $$
 7\end{pmatrix}(0.7)^{10}=0.267
 $$
 **What does this tell us?**  That it's more likely that the probability of flipping heads was 0.7 not 0.5.
+#probability 
