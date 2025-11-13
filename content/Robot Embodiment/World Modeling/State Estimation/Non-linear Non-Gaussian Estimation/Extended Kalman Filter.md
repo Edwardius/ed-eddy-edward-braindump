@@ -1,6 +1,7 @@
 #proprioception #stateEstimation
 
 see [[Kalman Filter]] for basic explanation of the Kalman Filter.
+# Setup
 
 The Basic Kalman Filter only functions on linear systems.  It assumes that your state can be modeled as:
 $$
@@ -18,6 +19,19 @@ $$
 $$
 \mathbf{z}_{k}=h(\mathbf{x}_{k})+\mathbf{v}_{k}
 $$
+# Relationship with Bayes Filter
+Coming from [[Bayes Filter]]. We make alot of assumptions to make the math easier to handle.
+
+$$
+\underbrace{ p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},\mathbf{y}_{{0:k}}) }_{ \text{posterior belief} }=\eta \underbrace{ p(\mathbf{y}_{k}|\mathbf{x}_{k}) }_{ \substack{\text{observation} \\ \text{correction} \\ \text{using}\;\mathbf{g}(\cdot)} }\int \underbrace{ p(\mathbf{x}_{k}|\mathbf{x}_{k-1},\mathbf{v}_{k}) }_{ \substack{\text{motion prediction} \\ \text{using }\mathbf{f}(\cdot)} }\underbrace{ p(\mathbf{x}_{k-1}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k-1},\mathbf{y}_{0:k-1}) }_{ \text{prior belief} }d\mathbf{x}_{k-1}
+$$
+We assume that our posterior belief is **Gaussian**, and our noise variables are **Gaussian** and **outside our non-linear state transition and observation models**.
+- Why Gaussians? Two reasons
+	- Its a way to represent a continuous PDF in a finite way
+	- The normal product of two gaussians is also a gaussian
+	- A large portion of randomness in our world is Gaussian in nature (its a safe-enough approximation)
+	- **Note:** Passing our Gaussians through non-linear functions cause the output PDF to be non-Gaussian.
+
 # Linearization
 The way an EKF gets around this is by **linearizing the non-linear system**! This is done via a [[Taylor Series]] (only using a first-order approximation).
 

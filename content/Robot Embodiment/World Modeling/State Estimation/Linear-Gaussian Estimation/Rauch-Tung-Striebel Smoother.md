@@ -47,4 +47,7 @@ $$
 
 and $\mathbf{K}_0 = \check{\mathbf{P}}_0\mathbf{C}_0^T(\mathbf{C}_0\check{\mathbf{P}}_0\mathbf{C}_0^T + \mathbf{R}_0)^{-1}$
 
->[!error] This is the **canonical method** to solving a batch of states at once, without any approximation involved!
+>[!error] This is the **canonical method** to solving a batch of states at once, without any approximation involved
+>
+
+>[!error] Historically, RTS Smoother was after the [[Kalman Filter]] was introduced
