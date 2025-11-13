@@ -3,7 +3,7 @@ I'll help fill in the gaps in your understanding of Identity-Based Motivation (I
 
 IBM is a **social cognitive theory of self, self-regulation, and goal pursuit** that explains how people interpret difficulty as a key factor in when and how identity motivates action.
 
-**The core paradox**: People can imagine their future selves **without** taking future-focused action (you had "with" but it should be "without").
+**The core paradox**: People can imagine their future selves **without** taking future-focused action.
 ## Three Components:
 
 1. **Dynamic construction**: Identities are formed in real time and are context-sensitive

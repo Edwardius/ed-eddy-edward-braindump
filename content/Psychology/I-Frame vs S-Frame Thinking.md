@@ -95,7 +95,7 @@ I-Frame assumes the problem is people making "wrong" individual choices, when of
 
 This creates a self-reinforcing loop:
 
-````
+```
 1. Corporations frame problems as personal responsibility
          ↓
 2. Behavioral scientists design interventions based on individual behavior

@@ -1,11 +1,13 @@
 #proprioception #stateEstimation 
 
 A recursive algorithm used to estimate the state of a **linear** system based on noisy measurements.
+
+![[Pasted image 20251112165255.png]]
 # Setup
 There's a ton of variables to keep track of:
 - $\mathbf{x}_{k} \in \mathbb{R}^n$ is the state vector at time $k$
 - $\mathbf{F}_k \in \mathbb{R}^{n \times n}$ is the state transition matrix, how state changes overtime **on its own (irrespective of the input)**
-- $\mathbf{B}_k \in \mathbb{R}^{n \times m}$ is the control input matrix, maps control input to its effect on the state
+- $\mathbf{B}_k \in \mathbb{R}^{n \times m}$ is the control input matrix, maps control input to its effect on the state5
 - $\mathbf{u}_k \in \mathbb{R}^m$ is the control input
 - $\mathbf{z}_k \in \mathbb{R}^p$ is the measurement vector
 - $\mathbf{H}_k \in \mathbb{R}^{p \times n}$ is the measurement matrix, maps the true state to what the sensor should measure (without noise)
