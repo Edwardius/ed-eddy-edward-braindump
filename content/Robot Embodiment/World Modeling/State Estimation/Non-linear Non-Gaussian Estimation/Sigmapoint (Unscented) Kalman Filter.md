@@ -72,7 +72,7 @@ $$
 **We now have our predicted priors!**
 
 # Update
-Recall from [[Bayes Filter]]
+Recall from [[Bayes Filter]] and [[Joint Gaussian PDFs]] and [[Generalized Gaussian Filter]]
 $$
 p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},\mathbf{y}_{{0:k}}) =\mathcal{N}(\underbrace{ \mu_{x,k}+\boldsymbol{\Sigma}_{xy}\boldsymbol{\Sigma}_{yy,k}^{-1}(\mathbf{y}_{k}-\boldsymbol{\mu}_{y,k}) }_{ \hat{\mathbf{x}}_{k} }, \underbrace{ \boldsymbol{\Sigma}_{xx,k}-\boldsymbol{\Sigma}_{xy,k}\boldsymbol{\Sigma}_{yy,k}^{-1}\boldsymbol{\Sigma}_{yx,k} }_{ \hat{\mathbf{P}}_{k} })
 $$

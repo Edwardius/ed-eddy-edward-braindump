@@ -47,3 +47,5 @@ The resultant final belief is a product of the two.
 >[!error] Its important to keep in mind that fundamentally these recursive algorithms, and what they strive for which is to better approximate the Bayes Filter, fall under one major **assumption** and that's that the state estimation problem is fundamentally a [[Markovian]] 
 
 One such method of trying handle these problems is the [[Extended Kalman Filter]]
+
+#
