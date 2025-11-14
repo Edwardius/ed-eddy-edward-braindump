@@ -274,15 +274,15 @@ Have to select first and then press.
 
 ## Quantum Mechanics
 
-|Trigger|Replacement|Description|Example|
-|---|---|---|---|
-|`dag`|`^{\dagger}`|Dagger (Hermitian)|$A^{\dagger}$|
-|`o+`|`\oplus`|Direct sum|$\oplus$|
-|`ox`|`\otimes`|Tensor product|$\otimes$|
-|`bra`|`\bra{$0}`|Bra|$\langle\psi|
-|`ket`|`\ket{$0}`|Ket|$|
-|`brk`|`\braket{ $0 \| $1 }`|Braket|$\langle\phi|
-|`outer`|`\ket{\psi} \bra{\psi}`|Outer product|$|
+| Trigger | Replacement             | Description        | Example       |
+| ------- | ----------------------- | ------------------ | ------------- |
+| `dag`   | `^{\dagger}`            | Dagger (Hermitian) | $A^{\dagger}$ |
+| `o+`    | `\oplus`                | Direct sum         | $\oplus$      |
+| `ox`    | `\otimes`               | Tensor product     | $\otimes$     |
+| `bra`   | `\bra{$0}`              | Bra                | $\langle\psi  |
+| `ket`   | `\ket{$0}`              | Ket                | $             |
+| `brk`   | `\braket{ $0 \| $1 }`   | Braket             | $\langle\phi  |
+| `outer` | `\ket{\psi} \bra{\psi}` | Outer product      | $             |
 
 ## Chemistry
 

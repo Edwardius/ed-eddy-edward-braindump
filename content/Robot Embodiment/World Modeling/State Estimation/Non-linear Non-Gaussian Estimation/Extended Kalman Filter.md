@@ -56,6 +56,7 @@ We then use that to predict our state covariance prior.
 $$
 \mathbf{P}_{k|k-1}=\underbrace{ \mathbf{F}_{k}\mathbf{P}_{k-1|k-1}\mathbf{F}_{k}^{T} }_{ \text{We use jacobian here} }+\mathbf{Q}_{k}
 $$
+
 # Update
 Compute the first order approximation of the non-linear measurement function using our predicted state prior.
 $$
@@ -65,14 +66,34 @@ Compute the Kalman Gain
 $$
 \mathbf{K}_{k}=\frac{\mathbf{P}_{k|k-1}\mathbf{H}_{k}^{T}}{\mathbf{H}_{k}\mathbf{P}_{k|k-1}\mathbf{H}_{k}^{T}+\mathbf{R}_{k}}
 $$
-Update the priors with the measurement using the Kalman Gain
+Update the priors with the measurement using the Kalman Gain (this becomes the posterior)
 $$
 \hat{\mathbf{x}}_{k|k}=\hat{\mathbf{x}}_{k|k-1}+\mathbf{K}_{k}(\mathbf{z}_{k}-\underbrace{ h(\hat{\mathbf{x}}_{k|k-1}) }_{ \substack{\text{We use} \\ \text{non-linear} \\ \text{here} }})
 $$
 $$
 \mathbf{P}_{k|k}=(\mathbf{I}-\mathbf{H}_{k}\mathbf{K}_{k})\mathbf{P}_{k|k-1}
 $$
-
+# Another way to Represent this
+There's just some notation mess because I learned these two concepts from two different sources. The Extended Kalman Filter can also be defined as the following:
+$$
+\text{predictor:} \quad 
+\check{\mathbf{P}}_k = \mathbf{F}_{k-1}\hat{\mathbf{P}}_{k-1}\mathbf{F}_{k-1}^T + \mathbf{Q}'_k, \tag{4.32a}
+$$
+$$
+\check{\mathbf{x}}_k = \mathbf{f}(\hat{\mathbf{x}}_{k-1}, \mathbf{v}_k, \mathbf{0}), \tag{4.32b}
+$$
+$$
+\text{Kalman gain:} \quad 
+\mathbf{K}_k = \check{\mathbf{P}}_k \mathbf{G}_k^T \left(\mathbf{G}_k \check{\mathbf{P}}_k \mathbf{G}_k^T + \mathbf{R}'_k\right)^{-1}, \tag{4.32c}
+$$
+$$
+\text{corrector:} \quad 
+\hat{\mathbf{P}}_k = (\mathbf{I} - \mathbf{K}_k \mathbf{G}_k) \check{\mathbf{P}}_k, \tag{4.32d}
+$$
+$$
+\hat{\mathbf{x}}_k = \check{\mathbf{x}}_k + \mathbf{K}_k \underbrace{\left(\mathbf{y}_k - \mathbf{g}(\check{\mathbf{x}}_k, \mathbf{0})\right)}_{\text{innovation}}. \tag{4.32e}
+$$
+>[![error] Vee is the predicted prior. hat is the corrected posterior
 # When do we have a non-linear system?
 Its pretty often. 
 
