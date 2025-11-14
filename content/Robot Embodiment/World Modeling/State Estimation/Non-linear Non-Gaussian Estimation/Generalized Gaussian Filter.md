@@ -15,10 +15,12 @@ In general, we begin by assuming a Gaussian prior at time $k-1$
 $$
 p(\mathbf{x}_{k-1}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k-1},\mathbf{y}_{0:k-1})=\mathcal{N}(\hat{\mathbf{x}}_{k-1},\hat{\mathbf{P}}_{k-1})
 $$
-We the assume that passing this though a non-linear motion model $\mathbf{f}(\cdot)$ is gonna give us another Gaussian
+We then assume that passing this though a non-linear motion model $\mathbf{f}(\cdot)$ is gonna give us another Gaussian
 $$
 p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{k},\mathbf{y}_{0:k-1})=\mathcal{N}(\check{\mathbf{x}}_{k},\check{\mathbf{P}}_{k})
 $$
+>[!error] This is quite an assumption that we do up front
+
 This is our **prediction prior**
 # Update
 Let's assume that our posterior is going to be Gaussian in nature.
@@ -42,9 +44,14 @@ p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k-1},\mathbf{y}_{0:k})=\ma
 $$
 Lining this up with our prediction prior
 $$
-p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{k},\mathbf{y}_{0:k-1})=\mathcal{N}(\check{\mathbf{x}}_{k},\check{\mathbf{P}}_{k})
+p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{k},\mathbf{y}_{0:k-1})=\int p(\mathbf{x}_{k},\mathbf{y}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},\mathbf{y}_{0:k-1})d\mathbf{y}_{k}=\mathcal{N}(\boldsymbol{\mu}_{x,k},\boldsymbol{\Sigma}_{xx,k})=\mathcal{N}(\check{\mathbf{x}}_{k},\check{\mathbf{P}}_{k})
 $$
-We see that a **generalized Gaussian correction-step** appears that could bridge our posterior and prediction prior together.
+>[!error] Here we took the marginal of the joint gaussian distribution. **Which obviously just gives us the distribution of the variable that wasn't integrated out!** This thus gives us a direct connection between our prediction prior and our join Gaussian model!!!
+
+$$
+\boldsymbol{\mu}_{x,k}=\check{\mathbf{x}}_{k},\;\;\;\; \boldsymbol{\Sigma}_{xx,k}=\check{\mathbf{P}}_{k}
+$$
+Injecting our prediction prior, we see that we end up with the **generalized Gaussian correction step!**
 $$
 \mathbf{K}_{k}=\boldsymbol{\Sigma}_{xy,k}\boldsymbol{\Sigma}_{yy,k}^{-1}
 $$

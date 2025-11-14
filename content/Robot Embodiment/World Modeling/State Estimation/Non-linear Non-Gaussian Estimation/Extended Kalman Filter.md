@@ -32,6 +32,7 @@ We assume that our posterior belief is **Gaussian**, and our noise variables are
 	- A large portion of randomness in our world is Gaussian in nature (its a safe-enough approximation)
 	- **Note:** Passing our Gaussians through non-linear functions cause the output PDF to be non-Gaussian.
 
+You can draw connections better if you take a look at the [[Generalized Gaussian Filter]]
 # Linearization
 The way an EKF gets around this is by **linearizing the non-linear system**! This is done via a [[Taylor Series]] (only using a first-order approximation).
 

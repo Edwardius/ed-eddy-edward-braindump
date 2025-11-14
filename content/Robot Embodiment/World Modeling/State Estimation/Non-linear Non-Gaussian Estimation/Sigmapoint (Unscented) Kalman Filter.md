@@ -133,7 +133,7 @@ And then **pass each point through the nonlinear motion model**
 $$
 \check{\mathbf{y}}_{k,i}=\mathbf{g}(\check{\mathbf{x}}_{k-1,i},\mathbf{n}_{k,i}) \;\;\; i=0\dots2L
 $$
-Recombine the transformation to the predicted prior
+Recombine the transformation to the predicted prior (we are computing what we need based on the [[Generalized Gaussian Filter]])
 $$
 \mathbf{\mu}_{y,k}=\sum ^{2L}_{i=0}\alpha_{i}\check{\mathbf{y}}_{k,i}
 $$

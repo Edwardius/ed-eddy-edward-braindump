@@ -4,7 +4,7 @@ The Bayes filter seeks to come up with an entire [[Basic Probability Nomenclatur
 $$
 p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},\mathbf{y}_{{0:k}})
 $$
-Because [[NLNG Problem Statement]] is [[Markovian]], we have independence between measurements, so
+Because [[NLNG Problem Statement]] is [[Markovian]], we have independence between measurements, so we can factor out the current measurement.
 $$
 p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},\mathbf{y}_{{0:k}})=\eta p(\mathbf{y}_{k}|\mathbf{x}_{k})p(\mathbf{x}_{k}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},\mathbf{y}_{{0:k-1}})
 $$
@@ -20,7 +20,7 @@ $$
 p(\mathbf{x}_{k}| \mathbf{x}_{k-1},\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},y_{0:k-1})=p(\mathbf{x}_{k}|\mathbf{x}_{k-1},\mathbf{v}_{k})
 $$
 $$
-p(\mathbf{x}_{k-1}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},y_{0:k-1})d\mathbf{x}_{k-1}=p(\mathbf{x}_{k-1}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k-1},\mathbf{y}_{0:k-1})
+p(\mathbf{x}_{k-1}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k},y_{0:k-1})=p(\mathbf{x}_{k-1}|\check{\mathbf{x}}_{0},\mathbf{v}_{1:k-1},\mathbf{y}_{0:k-1})
 $$
 Which leads us to the **Bayes Filter**
 $$
@@ -48,4 +48,6 @@ The resultant final belief is a product of the two.
 
 One such method of trying handle these problems is the [[Extended Kalman Filter]]
 
-#
+This provides us a basis for deriving recursive filters that stem from the [[Generalized Gaussian Filter]] as well as [[Particle Filter]]
+
+![[Pasted image 20251114125216.png]]
