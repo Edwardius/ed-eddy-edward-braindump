@@ -19,7 +19,7 @@ $$
 
 **"Hat" operator** ${}^\wedge : \mathbb{R}^3 \to \mathfrak{so}(3)$: Maps vectors to skew-symmetric matrices 
 $$
-\omega = \begin{bmatrix} \omega_1 \ \omega_2 \ \omega_3 \end{bmatrix} \quad \xrightarrow{^\wedge} \quad \omega^\wedge = \begin{bmatrix} 0 & -\omega_3 & \omega_2 \ \omega_3 & 0 & -\omega_1 \ -\omega_2 & \omega_1 & 0 \end{bmatrix}
+\omega = \begin{bmatrix} \omega_1 \\ \omega_2 \\ \omega_3 \end{bmatrix} \quad \xrightarrow{^\wedge} \quad \omega^\wedge = \begin{bmatrix} 0 & -\omega_3 & \omega_2 \\ \omega_3 & 0 & -\omega_1 \\ -\omega_2 & \omega_1 & 0 \end{bmatrix}
 $$
 
 **"Vee" operator** ${}^\vee : \mathfrak{so}(3) \to \mathbb{R}^3$: Inverse of hat (extracts the vector)
@@ -55,7 +55,7 @@ where $\theta = \arccos\left(\frac{\text{trace}(R) - 1}{2}\right)$
 
 **Extract the vector**: 
 $$
-\omega = \log(R)^\vee = \frac{\theta}{2\sin(\theta)}\begin{bmatrix} R_{32} - R_{23} \ R_{13} - R_{31} \ R_{21} - R_{12} \end{bmatrix}
+\omega = \log(R)^\vee = \frac{\theta}{2\sin(\theta)}\begin{bmatrix} R_{32} - R_{23} \\ R_{13} - R_{31} \\ R_{21} - R_{12} \end{bmatrix}
 $$
 
 **Special case**: If $\theta = 0$ (R = I), then $\omega = 0$
