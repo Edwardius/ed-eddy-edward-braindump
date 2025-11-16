@@ -82,17 +82,22 @@ ret, K, dist, rvecs, tvecs = cv2.calibrateCamera(
 )
 
 print(f"Intrinsics K:\n{K}")
+print(f"Distortion {dist}")
 print(f"Number of extrinsic poses: {len(rvecs)}")  # = number of images
 ```
 
 **Output:**
 ```
-Intrinsics K:
-[[2.15670900e+03 0.00000000e+00 8.10347489e+02]
- [0.00000000e+00 2.14267203e+03 5.48028224e+02]
- [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
-Number of extrinsic poses: 10
+Intrinsics K: 
+[[2.15670900e+03 0.00000000e+00 8.10347489e+02] 
+[0.00000000e+00 2.14267203e+03 5.48028224e+02] 
+[0.00000000e+00 0.00000000e+00 1.00000000e+00]] 
+Distortion:
+[[ 0.0210893 -0.68716169 -0.00217461 -0.01650779 1.76950328]] Number of extrinsic poses: 10
 ```
 
 So I got a pretty shit result, maybe because the checkerboard was warping LOL.
 
+What is it doing under the hood?
+
+# Zhang's Method

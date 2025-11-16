@@ -2,6 +2,119 @@ A perspective camera is just an idealized camera model used for our understandin
 
 ![[Pasted image 20251115185115.png]]
 
+# TLDR
+Given we have points in world frame $\vec{r}_{pw}=\begin{bmatrix}x_{w} \\ y_{w} \\ z_{w}\end{bmatrix}$ and the transform between the camera and the world frame is given by
+$$
+\mathbf{T}_{sw}=\begin{bmatrix}
+\mathbf{C}_{sw} & \mathbf{t}_{sw}
+\end{bmatrix}
+$$
+The pinhole camera model is defined as
+$$
+z_{s}\begin{bmatrix}
+u \\
+v \\
+1
+\end{bmatrix}=\mathbf{K}\mathbf{T}_{sw}\begin{bmatrix}
+\vec{r}_{pw} \\
+1
+\end{bmatrix}
+$$
+Which expanded looks like
+$$
+z_{s}\begin{bmatrix}
+u \\
+v \\
+1
+\end{bmatrix}=\begin{bmatrix}
+\alpha & \gamma & c_{u} \\
+0 & \beta & c_{v} \\
+0  & 0 & 1
+\end{bmatrix}\begin{bmatrix}
+\mathbf{C}_{sw} & \mathbf{t}_{sw}
+\end{bmatrix}\begin{bmatrix}
+x_{w} \\ y_{w} \\ z_{w} \\
+1
+\end{bmatrix}
+$$
+- $\mathbf{K}$ is our camera **intrinsic matrix**
+	- $\alpha$ is our horizontal focal length accounting for pixel size $\alpha=f_{u}l$
+	- $\beta$ is our vertical focal length accounting for pixel size $\beta=f_{v}$
+	- $\gamma$ is our **skew coefficient** (usually 0)
+	- $c_{u}$ is the horizontal offset to center the image plane with the camera frame
+	- $c_{v}$ is the vertical offset to center the image place with the camera frame
+- $\mathbf{T}$ is our camera **extrinsic matrix** (chopped transformation matrix)
+	- $\mathbf{C}$ is a valid rotation matrix
+	- $\mathbf{t}$ is our transformation vector
+- $z_{s}$ is the depth of the point in camera frame (must be divided out at the end to get our $u$ and $v$). The act of dividing out the depth is know as **perspective projection**
+# Accounting for Distortion
+![[Pasted image 20251116140014.png]]
+Distortion is a non-linear function, and there are number of different models for distortion.
+$$
+D(\cdot):\begin{bmatrix}
+x_{n} \\
+y_{n}
+\end{bmatrix} \to \begin{bmatrix}
+x_{d} \\
+y_{d}
+\end{bmatrix}
+$$
+## Brown-Conrady Distortion Model
+AKA **Plumb Bob Model**
+$$
+x_{d}=x_{n} \underbrace{ \frac{1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6}}{1+k_{4}r^{2}+k_{5}r^{4}+k_{6}r^{6}} }_{ \text{radial distortion} }+\underbrace{ 2p_{1}x_{n}y_{n}+p_{2}(r^{2}+2x_{n}^{2}) }_{ \text{tangential distortion} }+\underbrace{ s_{1}r^{2}+s_{2}r^{4} }_{ \substack{\text{thin prism}
+\\ \text{distortion}\\ \text{(misaligned} \\ \text{lenses)}} }
+$$
+$$
+y_{d}=y_{n} \frac{1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6}}{1+k_{4}r^{2}+k_{5}r^{4}+k_{6}r^{6}}+p_{1}(r^{2}+2y_{n}^{2})+2p_{2}x_{n}y_{n}+s_{3}r^{2}+s_{4}r^{4}
+$$
+where
+$$
+r^{2}=x_{n}^{2}+y_{n}^{2}
+$$
+>[!caution] This is the distortion model used by OpenCV
+
+**However,** most of the time OpenCV uses the standard 5-parameter, simplified model for most calibrations.
+$$
+x_{d}=x_{n}(1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6})+2p_{1}x_{n}y_{n}+p_{2}(r^{2}+2x_{n}^{2})
+$$
+$$
+y_{d}=y_{n} (1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6})+p_{1}(r^{2}+2y_{n}^{2})+2p_{2}x_{n}y_{n}
+$$
+## Adding Distortion into the model
+>[!error] We add in the distortion **after the extrinsic and perspective transform**, **before passing through camera intrinsics**
+
+$$
+z_{s}\begin{bmatrix}
+u \\
+v \\
+1
+\end{bmatrix}=\begin{bmatrix}
+\alpha & \gamma & c_{u} \\
+0 & \beta & c_{v} \\
+0  & 0 & 1
+\end{bmatrix}\begin{bmatrix}
+\mathbf{C}_{sw} & \mathbf{t}_{sw}
+\end{bmatrix}\begin{bmatrix}
+x_{w} \\ y_{w} \\ z_{w} \\
+1
+\end{bmatrix}
+$$
+$$
+\begin{bmatrix}
+u \\
+v \\
+1
+\end{bmatrix}=\begin{bmatrix}
+\alpha & \gamma & c_{u} \\
+0 & \beta & c_{v} \\
+0  & 0 & 1
+\end{bmatrix}D\left(\frac{\mathbf{T}_{sw}\begin{bmatrix}
+\vec{r}_{pw} \\
+1
+\end{bmatrix}}{z_{s}}\right)
+$$
+# Explanation
 We have our pinhole $S$ and a point in 3D space, $P$. The vector to the point from the pinhole is
 $$
 \rho=\mathbf{r}_{s}^{ps}=\begin{bmatrix}
