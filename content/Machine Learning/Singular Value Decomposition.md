@@ -106,3 +106,5 @@ $$
 $$
 
 >[!info] In practice, there are algorithmic implementations in like Numpy and PyTorch that you can use. The way above is not the standard way of doing it because eigendecomposition on very large matrices is very expensive
+
+#machineLearning
