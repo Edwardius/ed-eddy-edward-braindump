@@ -7,7 +7,7 @@ For a long time, many people studied math in the context of specific things: num
 
 - **Integers**: $3 + 5 = 8$
 - **Polynomials**: $(x^2 + 2x) + (3x + 5) = x^2 + 5x + 5$
-- **Matrices**: $\begin{bmatrix} 1 & 2 \ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \ 7 & 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \ 10 & 12 \end{bmatrix}$
+- **Matrices**: $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix} = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}$
 - **Vectors**: $(1, 2, 3) + (4, 5, 6) = (5, 7, 9)$
 - **Complex numbers**: $(3 + 4i) + (1 + 2i) = 4 + 6i$
 - **Functions**: $(f + g)(x) = f(x) + g(x)$
@@ -34,7 +34,7 @@ All of these follow the **same fundamental rules** (commutative, associative, id
 - **Identity**: There's a "zero" where a + 0 = a
 - **Inverse**: For every a, there's a -a where a + (-a) = 0
 
-So these fundamental operations and their rules are interesting, but **how do I prove to people that these rules do in fact hold for this operation in every type of mathematical object?** 
+So these fundamental operations and their rules are interesting, but **how do I prove to people whether these rules do or do not in fact hold for every type of mathematical object?** 
 
 >[!error] That's what the field of Abstract Algebra is about! It studies the patterns and properties that emerge from operations on mathematical objects, **identifying what's common across different contexts**!
 

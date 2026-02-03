@@ -1,4 +1,3 @@
-I'll help fill in the gaps in your understanding of Identity-Based Motivation (IBM) theory based on the paper.
 ## What is IBM?
 
 IBM is a **social cognitive theory of self, self-regulation, and goal pursuit** that explains how people interpret difficulty as a key factor in when and how identity motivates action.
