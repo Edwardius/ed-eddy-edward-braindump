@@ -34,3 +34,24 @@ At the core of my curiosity is the human brain. To me, it holds wonders more com
 # Premise of Computational Neuroscience
 
 We try to study the brain by making connections between it and modern algorithms. The goal is to make better algorithms as well as give us a better understanding of the brain.
+
+The mouse brain is used more most of this course. Reason is that its the most completely studied animal brain, and the brain is relatively less complex than that of the brains of humans.
+
+![[Pasted image 20260203182924.png]]
+
+We can draw rough analogies to current algorithms and parts of the brain.
+- Parts of the #cortex :
+	- #primarySomatosensoryCortex resembles most self-supervised learning #selfSupervisedLearning
+	- #primaryMotorCortex resembles optimal control ([[Control Systems]])
+	- #prefrontalCortex value functions for self-supervised learning
+- Parts of the #basalGanglia resemble concepts from #reinforcementLearning
+- #olfactoryBulb scent feature engineering
+- Parts of the #hippocampus resembles #memory formation (kinda part of #worldModeling)
+- #cerebellum is a core part of #stateEstimation and #action 
+- #hindbrain or the #brainstem responsible for low-level functions for #action 
+
+## Why is #machineLearning such a popular model of the brain?
+Much of how we study the brain is our a property X contributes to a function Y. The way we study brain has kinda guided the development and modeling with ML. 
+
+ML in general is pretty good at approximating behavioral functions.
+
