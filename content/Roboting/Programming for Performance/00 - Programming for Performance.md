@@ -1,1 +1,1 @@
-Course notes on Programming for Performance
+Course notes on Programming for Performance. Uses Rust
