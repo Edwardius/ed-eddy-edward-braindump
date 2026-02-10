@@ -1,4 +1,4 @@
-From [[Robot Embodiment/World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] we have the loss function
+From [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] we have the loss function
 $$
 J(\mathbf{x})=\frac{1}{2}\sum ^{N}_{i=1}\mathbf{e}_{i}(\mathbf{x})^{T}\mathbf{W}^{-1}_{i}(\mathbf{e}_{i}(\mathbf{x}))
 $$

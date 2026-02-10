@@ -18,7 +18,7 @@ $$
 
 This is looking at deriving Newton's Optimization in a [[00 - Multivariate Calculus Table of Contents|Multivariate way]]
 
-Given we have the Optimization problem from [[Robot Embodiment/World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]]
+Given we have the Optimization problem from [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]]
 $$
 J(\mathbf{x}) = \frac{1}{2}\mathbf{u}(\mathbf{x})^T \mathbf{u}(\mathbf{x})
 $$

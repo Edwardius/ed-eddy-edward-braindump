@@ -1,6 +1,6 @@
-Extension of [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Bayesian Inference|Bayesian Inference]] except for [[NLNG Problem Statement]]. 
+Extension of [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Bayesian Inference|Bayesian Inference]] except for [[NLNG Problem Statement]]. 
 
-See [[Robot Embodiment/World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] perspective of inference as well. We will be using [[Gauss-Newton Method]]
+See [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] perspective of inference as well. We will be using [[Gauss-Newton Method]]
 
 # Predict 
 Following our model, we can linearize it about an operating point.
@@ -14,7 +14,7 @@ $$
 >[!info] The $(·)'$ notation is used to indicate that the Jacobian with respect to the noise is incorporated into the quantity.
 
 
-We can lift this into lifted matrix form like in the previous [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Bayesian Inference|Bayesian Inference]]
+We can lift this into lifted matrix form like in the previous [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Bayesian Inference|Bayesian Inference]]
 $$
 \mathbf{x} = \mathbf{F}(\boldsymbol{\nu} + \mathbf{w}')
 $$

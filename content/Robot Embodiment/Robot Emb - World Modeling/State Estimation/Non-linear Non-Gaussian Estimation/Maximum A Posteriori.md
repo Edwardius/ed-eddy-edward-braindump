@@ -1,4 +1,4 @@
-This follows [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] in Linear-Gaussian Estimation, except for the nonlinear case.
+This follows [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] in Linear-Gaussian Estimation, except for the nonlinear case.
 
 We previously set the objective function to be the squared [[Mahalanobis Distance]] . Here we define the errors between the prior and measurements differently...
 $$

@@ -1,4 +1,4 @@
-Constructs a local optimization through [[Robot Embodiment/World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] for a small window of estimates and states.
+Constructs a local optimization through [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Non-linear Non-Gaussian Estimation/Maximum A Posteriori|Maximum A Posteriori]] for a small window of estimates and states.
 
 $$
 \underbrace{\begin{bmatrix} \tilde{\mathbf{A}}_{kk} & \mathbf{A}_{k+1,k}^T \\ \mathbf{A}_{k+1,k} & \mathbf{A}_{k+1,k+1} & \mathbf{A}_{k+2,k+1}^T \\ & \mathbf{A}_{k+2,k+1} & \mathbf{A}_{k+2,k+2} & \mathbf{A}_{k+3,k+2}^T \\ & & \mathbf{A}_{k+3,k+2} & \mathbf{A}_{k+3,k+3} \end{bmatrix}}_{\mathbf{H}^T\mathbf{W}^{-1}\mathbf{H}} \underbrace{\begin{bmatrix} \delta\mathbf{x}_k^* \\ \delta\mathbf{x}_{k+1}^* \\ \delta\mathbf{x}_{k+2}^* \\ \delta\mathbf{x}_{k+3}^* \end{bmatrix}}_{\delta\mathbf{x}^*} = \underbrace{\begin{bmatrix} \tilde{\mathbf{b}}_k \\ \mathbf{b}_{k+1} \\ \mathbf{b}_{k+2} \\ \mathbf{b}_{k+3} \end{bmatrix}}_{\mathbf{H}^T\mathbf{W}^{-1}\mathbf{e}}

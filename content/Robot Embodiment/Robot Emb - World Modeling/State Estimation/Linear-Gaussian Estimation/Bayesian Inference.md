@@ -1,4 +1,4 @@
-Opposed to [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori]] where we were calculating just the entire state as an optimization problem, Bayesian Inference aims to compute the full posterior (that is, it aims to calculate **the full distribution of probable state trajectories**). 
+Opposed to [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori]] where we were calculating just the entire state as an optimization problem, Bayesian Inference aims to compute the full posterior (that is, it aims to calculate **the full distribution of probable state trajectories**). 
 
 >[!error] We're not just calculating a single best guess, we are computing the distribution of possible guesses!
 
@@ -105,6 +105,6 @@ Which simplifies the system of equations to.
 $$
 (\mathbf{H}^{T}\mathbf{W}^{-1}\mathbf{H})\hat{\mathbf{x}}=\mathbf{H}^{T}\mathbf{W}^{-1}\mathbf{z}
 $$
-which is exactly what we saw in [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori]]! This is because we are functioning on Gaussian, whose mean and mode are the same.
+which is exactly what we saw in [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori]]! This is because we are functioning on Gaussian, whose mean and mode are the same.
 
 >[!error] Important to note here that Bayesian Inference lets us retreive the **mean** easier

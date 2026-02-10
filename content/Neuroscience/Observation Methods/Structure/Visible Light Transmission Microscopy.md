@@ -3,7 +3,7 @@ Involves:
 2. **fixation** tissue is stabilized with some chemical
 3. **dehydration** water is removed using some solvent
 4. **embedding** tissue is hardened with some medium (paraffin)
-5. **microtomy** cut into thin sheet with [[microtome]]
+5. **microtomy** cut into thin sheet with [[Microtome]]
 6. **staining** chemicals that attach to specific structures which change opacity (making it easier to see things)
 
 ![[Pasted image 20251109180646.png]]

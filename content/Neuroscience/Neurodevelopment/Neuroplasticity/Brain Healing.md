@@ -57,7 +57,7 @@ Introduction of stem cells into a post-stroke brain. Has shown promise in some a
 Still under active research.
 
 # Brain Stimulation
-Applying [[Transcranial Direct Current Stimulation]] and [[Physiological Psychology/Observation Methods/Stimulation/Transcranial Magnetic Stimulation (TMS)|Transcranial Magnetic Stimulation (TMS)]] have helped.
+Applying [[Transcranial Direct Current Stimulation]] and [[Neuroscience/Observation Methods/Stimulation/Transcranial Magnetic Stimulation (TMS)|Transcranial Magnetic Stimulation (TMS)]] have helped.
 
 ![[Pasted image 20251110144306.png]]
 

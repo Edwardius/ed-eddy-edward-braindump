@@ -22,9 +22,9 @@ Where $k$ is a index in discrete time.
 *The problem of state estimation is to come up with an estimate $\hat{\mathbf{x}_{k}}$ of the true state of a system, at one or more timesteps, $k$, given knowledge of the initial state, $\mathbf{x}_{0}$, a sequence of measurements $y_{0:K}$ a sequence of inputs $\mathbf{v}_{1:K}$ as well as knowledge of the system's motion and observation models*
 
 There are roughly two paradigms to solving this:
-- [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Bayesian Inference]] prior, posterior paradigm where we are updating a prior density (based on our initial state, inputs, and motion model) with our measurements to produce a posterior estimate
+- [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Bayesian Inference]] prior, posterior paradigm where we are updating a prior density (based on our initial state, inputs, and motion model) with our measurements to produce a posterior estimate
 	- [[Generalized Gaussian Filter]] [[Bayes Filter]] [[Kalman Filter]]
-- [[Robot Embodiment/World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori]] here we are using optimization to find the most likely posterior state given the information we have.
+- [[Robot Embodiment/Robot Emb - World Modeling/State Estimation/Linear-Gaussian Estimation/Maximum A Posteriori]] here we are using optimization to find the most likely posterior state given the information we have.
 
 This problem can be solved with many approaches, one of them being the [[Kalman Filter]]
 

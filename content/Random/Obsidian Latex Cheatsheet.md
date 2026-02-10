@@ -1,4 +1,3 @@
-Here's a comprehensive cheatsheet of all your LaTeX shortcuts:
 
 ## Math Mode Triggers
 
