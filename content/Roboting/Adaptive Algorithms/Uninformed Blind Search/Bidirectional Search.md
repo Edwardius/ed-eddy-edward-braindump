@@ -1,0 +1,1 @@
+BFS from start to goal and bfs from goal to start, see if they touch tips.
