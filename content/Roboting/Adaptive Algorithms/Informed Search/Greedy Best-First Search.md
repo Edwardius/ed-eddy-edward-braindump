@@ -1,0 +1,1 @@
+[[Best First Search]] where the evaluation function is the heuristic estimate.
