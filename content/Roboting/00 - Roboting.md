@@ -10,3 +10,6 @@ This section mainly consists of self-taught concepts that may be related to the 
 [[Serving Packages]]
 [[Fundamentals of Code Packaging]]
 and others without a table of contents at the moment...
+
+## Random Stuff
+[[Linux Kernel Issues]]
